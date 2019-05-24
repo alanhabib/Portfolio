@@ -1,0 +1,37 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "description": "git init - Create a new git repo git status - View the changes to your project code git add - Add files to staging area git commit - Creates a new commit with files from staging area git log - View recent commits",
+  "main": "app.js",
+  "dependencies": {
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "sass": "^1.20.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html --out-dir prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewjmead/react-course-2-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewjmead/react-course-2-boilerplate/issues"
+  },
+  "homepage": "https://github.com/andrewjmead/react-course-2-boilerplate#readme"
+}
