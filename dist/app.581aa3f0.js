@@ -84475,7 +84475,10 @@ var Home = function Home() {
     style: {
       flex: 1
     }
-  }, _react.default.createElement("h1", null, "This is from my D comp"));
+  }, _react.default.createElement("h1", null, "This is from my D comp"), _react.default.createElement("div", null, _react.default.createElement("img", {
+    src: "http://seanhalpin.io/assets/img/content/home/masthead/land.svg",
+    alt: "home-pic"
+  })));
 };
 
 var _default = Home;

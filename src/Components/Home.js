@@ -6,6 +6,12 @@ const Home = () => {
 		<h1>
 			This is from my D comp
 		</h1>
+			<div>
+				<img
+					src={"http://seanhalpin.io/assets/img/content/home/masthead/land.svg"}
+					alt={"home-pic"}
+				/>
+			</div>
 		</div>
 	)
 };
