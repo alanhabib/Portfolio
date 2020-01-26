@@ -84588,11 +84588,12 @@ var _core = require("@material-ui/core");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Footer = function Footer() {
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement("div", {
+  return _react.default.createElement("div", {
     style: {
       backgroundColor: "#319e55",
       boxShadow: "none",
-      flexShrink: 0
+      flexShrink: 0,
+      height: "10%"
     }
   }, _react.default.createElement("div", {
     style: {
@@ -84631,7 +84632,7 @@ var Footer = function Footer() {
     },
     to: "/help",
     activeClassName: "is-active"
-  }, "Help")))));
+  }, "Help"))));
 };
 
 var _default = Footer;

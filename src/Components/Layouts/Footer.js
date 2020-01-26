@@ -8,12 +8,13 @@ import {
 
 const Footer = () => {
 	return (
-		<React.Fragment>
+
 				<div
 					style={{
 						backgroundColor: "#319e55",
 						boxShadow: "none",
-						flexShrink: 0
+						flexShrink: 0,
+						height: "10%"
 				}}>
 					<div style={{
 						display: "flex",
@@ -47,7 +48,7 @@ const Footer = () => {
 						</div>
 				</div>
 				</div>
-		</React.Fragment>
+
 	)
 };
 
