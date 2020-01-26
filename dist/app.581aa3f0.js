@@ -84570,6 +84570,11 @@ function HideOnScroll(props) {
   var children = props.children;
   var trigger = (0, _core.useScrollTrigger)();
   return _react.default.createElement(_core.Slide, {
+    timeout: {
+      appear: false,
+      enter: 800,
+      exit: 800
+    },
     appear: false,
     direction: "down",
     "in": !trigger
@@ -84585,26 +84590,29 @@ var Header = function Header(_ref) {
   var props = _ref.props;
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_core.CssBaseline, null), _react.default.createElement(HideOnScroll, props, _react.default.createElement(_core.AppBar, {
     style: {
-      backgroundColor: "#319e55",
+      backgroundColor: "#e0ebe8",
       boxShadow: "none"
     }
   }, _react.default.createElement(_core.Toolbar, {
     style: {
       display: "flex",
-      justifyContent: "space-between"
+      justifyContent: "space-around"
     }
   }, _react.default.createElement(_core.Typography, {
+    style: {
+      color: "#45b29a"
+    },
     variant: "h4"
   }, "Portfolio"), _react.default.createElement("div", {
     style: {
       display: "flex",
       justifyContent: "center",
-      fontSize: 22,
-      width: "50%"
+      fontSize: 22 // width: "50%"
+
     }
   }, _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
-      color: "#fff",
+      color: "#45b29a",
       paddingRight: 8,
       paddingLeft: 8
     },
@@ -84613,15 +84621,15 @@ var Header = function Header(_ref) {
     activeClassName: "is-active"
   }, "Home"), _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
-      color: "#fff",
+      color: "#45b29a",
       paddingRight: 8,
       paddingLeft: 8
     },
-    to: "/create",
+    to: "/projects",
     activeClassName: "is-active"
-  }, "Create"), _react.default.createElement(_reactRouterDom.NavLink, {
+  }, "Projects"), _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
-      color: "#fff",
+      color: "#45b29a",
       paddingRight: 8,
       paddingLeft: 8
     },
@@ -84647,27 +84655,52 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Home = function Home() {
   return _react.default.createElement("div", {
     style: {
-      flex: 1
+      flex: 1,
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center"
     }
-  }, _react.default.createElement("h1", null, "This is from my D comp"));
-};
-
-var _default = Home;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"../src/Components/AddExpensePage.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var AddExpensePage = function AddExpensePage() {
-  return _react.default.createElement("div", {
+  }, _react.default.createElement("div", {
+    style: {
+      color: "#45b29a",
+      display: "flex",
+      backgroundColor: "#e0ebe8",
+      flex: 0.1,
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center"
+    }
+  }, _react.default.createElement("p", {
+    style: {
+      margin: 14,
+      fontFamily: "Indie Flower",
+      fontSize: 46,
+      textAlign: "center"
+    }
+  }, "I'm Alan."), _react.default.createElement("p", {
+    style: {
+      margin: 14,
+      fontFamily: "Roboto Mono",
+      fontSize: 20,
+      textAlign: "center"
+    }
+  }, "a web developer")), _react.default.createElement("div", {
+    style: {
+      flex: 0.1,
+      backgroundColor: "#e0ebe8",
+      justifyContent: "center",
+      alignItems: "center",
+      display: "flex"
+    }
+  }, _react.default.createElement("img", {
+    style: {
+      maxWidth: "100%",
+      height: "auto",
+      width: "auto"
+    },
+    src: "http://seanhalpin.io/assets/img/content/home/masthead/land.svg",
+    alt: "home-pic"
+  })), _react.default.createElement("div", {
     style: {
       display: "flex",
       flexDirection: "column",
@@ -84676,10 +84709,10 @@ var AddExpensePage = function AddExpensePage() {
       // height: "100%",
       fontSize: 40
     }
-  }, _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"));
+  }, _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense")));
 };
 
-var _default = AddExpensePage;
+var _default = Home;
 exports.default = _default;
 },{"react":"../node_modules/react/index.js"}],"../src/Components/EditExpensePage.js":[function(require,module,exports) {
 "use strict";
@@ -84762,11 +84795,12 @@ var _core = require("@material-ui/core");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Footer = function Footer() {
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement("div", {
+  return _react.default.createElement("div", {
     style: {
-      backgroundColor: "#319e55",
+      backgroundColor: "#c5ded7",
       boxShadow: "none",
-      flexShrink: 0
+      flexShrink: 0,
+      height: "10%"
     }
   }, _react.default.createElement("div", {
     style: {
@@ -84777,12 +84811,12 @@ var Footer = function Footer() {
     style: {
       display: "flex",
       justifyContent: "center",
-      fontSize: 22,
-      width: "50%"
+      fontSize: 22 // width: "50%"
+
     }
   }, _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
-      color: "#fff",
+      color: "#45b29a",
       paddingRight: 8,
       paddingLeft: 8
     },
@@ -84791,7 +84825,7 @@ var Footer = function Footer() {
     activeClassName: "is-active"
   }, "Home"), _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
-      color: "#fff",
+      color: "#45b29a",
       paddingRight: 8,
       paddingLeft: 8
     },
@@ -84799,18 +84833,45 @@ var Footer = function Footer() {
     activeClassName: "is-active"
   }, "Create"), _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
-      color: "#fff",
+      color: "#45b29a",
       paddingRight: 8,
       paddingLeft: 8
     },
     to: "/help",
     activeClassName: "is-active"
-  }, "Help")))));
+  }, "Help"))));
 };
 
 var _default = Footer;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core":"../node_modules/@material-ui/core/esm/index.js"}],"../src/Routers/AppRouter.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core":"../node_modules/@material-ui/core/esm/index.js"}],"../src/Components/Projects.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Projects = function Projects() {
+  return _react.default.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+      flex: 1,
+      // height: "100%",
+      fontSize: 40
+    }
+  }, _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"));
+};
+
+var _default = Projects;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js"}],"../src/Routers/AppRouter.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -84826,8 +84887,6 @@ var _Header = _interopRequireDefault(require("../Components/Layouts/Header"));
 
 var _Home = _interopRequireDefault(require("../Components/Home"));
 
-var _AddExpensePage = _interopRequireDefault(require("../Components/AddExpensePage"));
-
 var _EditExpensePage = _interopRequireDefault(require("../Components/EditExpensePage"));
 
 var _HelpPage = _interopRequireDefault(require("../Components/HelpPage"));
@@ -84835,6 +84894,8 @@ var _HelpPage = _interopRequireDefault(require("../Components/HelpPage"));
 var _NotFoundPage = _interopRequireDefault(require("../Components/NotFoundPage"));
 
 var _Footer = _interopRequireDefault(require("../Components/Layouts/Footer"));
+
+var _Projects = _interopRequireDefault(require("../Components/Projects"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -84852,8 +84913,8 @@ var AppRouter = function AppRouter() {
     path: "/",
     component: _Home.default
   }), _react.default.createElement(_reactRouterDom.Route, {
-    path: "/create",
-    component: _AddExpensePage.default
+    path: "/projects",
+    component: _Projects.default
   }), _react.default.createElement(_reactRouterDom.Route, {
     path: "/edit/:id",
     component: _EditExpensePage.default
@@ -84867,7 +84928,7 @@ var AppRouter = function AppRouter() {
 
 var _default = AppRouter;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Components/Layouts/Header":"../src/Components/Layouts/Header.js","../Components/Home":"../src/Components/Home.js","../Components/AddExpensePage":"../src/Components/AddExpensePage.js","../Components/EditExpensePage":"../src/Components/EditExpensePage.js","../Components/HelpPage":"../src/Components/HelpPage.js","../Components/NotFoundPage":"../src/Components/NotFoundPage.js","../Components/Layouts/Footer":"../src/Components/Layouts/Footer.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Components/Layouts/Header":"../src/Components/Layouts/Header.js","../Components/Home":"../src/Components/Home.js","../Components/EditExpensePage":"../src/Components/EditExpensePage.js","../Components/HelpPage":"../src/Components/HelpPage.js","../Components/NotFoundPage":"../src/Components/NotFoundPage.js","../Components/Layouts/Footer":"../src/Components/Layouts/Footer.js","../Components/Projects":"../src/Components/Projects.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
