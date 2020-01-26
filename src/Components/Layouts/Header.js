@@ -15,7 +15,12 @@ function HideOnScroll(props) {
   const trigger = useScrollTrigger();
 
   return (
-    <Slide appear={false} direction="down" in={!trigger}>
+    <Slide
+      timeout={{ appear: false, enter: 800, exit: 800 }}
+      appear={false}
+      direction="down"
+      in={!trigger}
+    >
       {children}
     </Slide>
   );
@@ -75,10 +80,10 @@ const Header = ({ props }) => {
                   paddingRight: 8,
                   paddingLeft: 8
                 }}
-                to={"/create"}
+                to={"/projects"}
                 activeClassName={"is-active"}
               >
-                Create
+                Projects
               </NavLink>
               <NavLink
                 style={{

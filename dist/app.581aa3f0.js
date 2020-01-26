@@ -84570,6 +84570,11 @@ function HideOnScroll(props) {
   var children = props.children;
   var trigger = (0, _core.useScrollTrigger)();
   return _react.default.createElement(_core.Slide, {
+    timeout: {
+      appear: false,
+      enter: 800,
+      exit: 800
+    },
     appear: false,
     direction: "down",
     "in": !trigger
@@ -84620,9 +84625,9 @@ var Header = function Header(_ref) {
       paddingRight: 8,
       paddingLeft: 8
     },
-    to: "/create",
+    to: "/projects",
     activeClassName: "is-active"
-  }, "Create"), _react.default.createElement(_reactRouterDom.NavLink, {
+  }, "Projects"), _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
       color: "#45b29a",
       paddingRight: 8,
