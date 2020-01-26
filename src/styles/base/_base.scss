@@ -1,11 +1,17 @@
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: $m-size;
+  font-size: 14px;
   line-height: 1.6;
+  height: 100%;
+}
+
+#app {
+  min-height: 100%;
 }
 
 button {

@@ -2,8 +2,218 @@ import React from "react";
 
 const AddExpensePage = () => {
 	return (
-		<div>
+		<div style={{
+			display: "flex",
+			flexDirection: "column",
+			justifyContent: "space-between",
+			flex: 1,
+			// height: "100%",
+			fontSize: 40
+		}}>
+			<h2>
 			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			</h2>
+			<h2>
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			added expense
+			</h2>
 		</div>
 	)
 };
