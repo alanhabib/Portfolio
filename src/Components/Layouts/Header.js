@@ -48,9 +48,22 @@ const Header = ({ props }) => {
               justifyContent: "space-around"
             }}
           >
+            {/* <div>
+              <img
+                style={{
+                  width: 100,
+                  height: 100,
+                  borderRadius: "50%"
+                }}
+                src={require("../../../public/images/luffy.jpg")}
+              />
+            </div> */}
             <Typography
-              style={{ color: "#45b29a" }}
-              variant="h4"
+              style={{
+                color: "#45b29a",
+                fontFamily: "Indie Flower"
+              }}
+              variant="h2"
             >
               Portfolio
             </Typography>
