@@ -1,10 +1,30 @@
+.container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topIntroduction {
+  color: #45b29a;
+  display: flex;
+  background-color: "#e0ebe8";
+  flex: 0.1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+}
+
 html {
   font-size: 62.5%;
   height: 100%;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
   height: 100%;
@@ -12,6 +32,7 @@ body {
 
 #app {
   min-height: 100%;
+  font-family: "Roboto Mono", monospace;
 }
 
 button {
