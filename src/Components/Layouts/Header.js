@@ -104,10 +104,10 @@ const Header = ({ props }) => {
                   paddingRight: 8,
                   paddingLeft: 8
                 }}
-                to={"/help"}
+                to={"/contact"}
                 activeClassName={"is-active"}
               >
-                Help
+                Contact
               </NavLink>
             </div>
           </Toolbar>

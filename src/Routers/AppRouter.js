@@ -7,7 +7,7 @@ import {
 import Header from "../Components/Layouts/Header";
 import Home from "../Components/Home";
 import EditExpensePage from "../Components/EditExpensePage";
-import HelpPage from "../Components/HelpPage";
+import Contact from "../Components/Contact";
 import NotFoundPage from "../Components/NotFoundPage";
 import Footer from "../Components/Layouts/Footer";
 import Projects from "../Components/Projects";
@@ -32,7 +32,7 @@ const AppRouter = () => {
             path={"/edit/:id"}
             component={EditExpensePage}
           />
-          <Route path={"/help"} component={HelpPage} />
+          <Route path={"/contact"} component={Contact} />
           <Route component={NotFoundPage} />
         </Switch>
         <Footer />
