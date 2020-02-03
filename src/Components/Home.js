@@ -1,149 +1,106 @@
 import React from "react";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div
-      style={{
-        flex: 1,
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center"
-      }}
-    >
-      <div
-        style={{
-          color: "#45b29a",
-          display: "flex",
-          backgroundColor: "#e0ebe8",
-          flex: 0.1,
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center"
-        }}
-      >
-        <p
-          style={{
-            margin: 14,
-            fontFamily: "Indie Flower",
-            fontSize: 46,
-            textAlign: "center"
-          }}
-        >
-          I'm Alan.
-        </p>
-        <p
-          style={{
-            margin: 14,
-            fontFamily: "Roboto Mono",
-            fontSize: 20,
-            textAlign: "center"
-          }}
-        >
-          a web developer
-        </p>
+    <div className={"container"}>
+      <div className={"topIntroduction"}>
+        <p className={"nameTag"}>I'm Alan.</p>
+        <p className={"textParagraph"}>a web developer</p>
       </div>
-      <div
-        style={{
-          flex: 0.1,
-          backgroundColor: "#e0ebe8",
-          justifyContent: "center",
-          alignItems: "center",
-          display: "flex"
-        }}
-      >
+      <div className={"headerImageWrapper"}>
         <img
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-            width: "auto"
-          }}
+          className={"image"}
           src={
             "http://seanhalpin.io/assets/img/content/home/masthead/land.svg"
           }
           alt={"home-pic"}
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-          flex: 1,
-          // height: "100%",
-          fontSize: 40
-        }}
-      >
-        <h2>added expense added expense</h2>
-        <h2>added expense added expense</h2>
-        <h2>
-          added expense added expense added expense added
-          expense added expense
-        </h2>
-        <h2>
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense
-        </h2>
-        <h2>
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense
-        </h2>
-        <h2>
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense
-        </h2>
-        <h2>
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense
-        </h2>
-        <h2>
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense
-        </h2>
-        <h2>
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense added
-          expense added expense added expense added expense
-          added expense added expense added expense
-        </h2>
+      <div className={"outerWrapper"}>
+        <div className={"innerWrapper"}>
+          <img
+            className={"faceImage"}
+            alt="pirate"
+            src={require("../../public/images/me.svg")}
+          />
+          <p className={"textParagraph"}>
+            <span className={"bigText"}>Hello.</span>
+          </p>
+          <p className={"textParagraph"}>
+            I'm a web developer / software enginear based in
+            Stockholm, Sweden. I have a big passion for
+            web/app development and I love to solve
+            problems.
+          </p>
+        </div>
       </div>
+      <div className={"dotted"}></div>
+      <div className={"innerWrapper"}>
+        <p className={"textParagraph"}>
+          <span className={"bigText"}>What I can do.</span>
+        </p>
+        <div className={"imageAndText"}>
+          <div className={"innerImageAndTextWrapper"}>
+            <div className={"innerImageAndText"}>
+              <img
+                className={"faceImage"}
+                alt="pirate"
+                src={require("../../public/images/me.svg")}
+              ></img>
+              <img
+                className={"faceImage"}
+                alt="pirate"
+                src={require("../../public/images/me.svg")}
+              ></img>
+            </div>
+            <div className={"innerImageAndText"}>
+              <div className={"textWrapper"}>
+                <p className={"textParagraph"}>
+                  Develop the website that is on your mind
+                </p>
+                <p className={"textParagraph"}>
+                  I like to keep it simple. My goals are to
+                  focus on development, content and
+                  implementation of your ideas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className={"innerImageAndTextWrapper"}>
+              <div className={"innerImageAndText"}>
+                <div className={"textWrapper"}>
+                  <p className={"textParagraph"}>
+                    <span className={"bigText"}>
+                      Develop the application you need
+                    </span>
+                  </p>
+                  <p className={"textParagraph"}>
+                    As a software enginear you have to be
+                    flexible, I know all about creating an
+                    application to run across devices using
+                    the latest technologies.
+                  </p>
+                </div>
+              </div>
+              <div className={"innerImageAndText"}>
+                <img
+                  className={"faceImage"}
+                  alt="pirate"
+                  src={require("../../public/images/me.svg")}
+                ></img>
+                <img
+                  className={"faceImage"}
+                  alt="pirate"
+                  src={require("../../public/images/me.svg")}
+                ></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={"dotted"}></div>
     </div>
   );
 };

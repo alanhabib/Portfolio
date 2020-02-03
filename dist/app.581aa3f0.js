@@ -36916,9 +36916,7 @@ var _chainPropTypes = _interopRequireDefault(require("./chainPropTypes"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function isClassComponent(elementType) {
   // elementType.prototype?.isReactComponent
@@ -42344,9 +42342,7 @@ Object.keys(_StylesProvider).forEach(function (key) {
   });
 });
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 },{"./StylesProvider":"../node_modules/@material-ui/styles/esm/StylesProvider/StylesProvider.js"}],"../node_modules/@material-ui/styles/esm/makeStyles/indexCounter.js":[function(require,module,exports) {
 "use strict";
 
@@ -43486,9 +43482,7 @@ Object.keys(_withTheme).forEach(function (key) {
   });
 });
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 },{"./withTheme":"../node_modules/@material-ui/styles/esm/withTheme/withTheme.js"}],"../node_modules/@material-ui/styles/esm/index.js":[function(require,module,exports) {
 "use strict";
 
@@ -43760,9 +43754,7 @@ Object.keys(_withTheme).forEach(function (key) {
   });
 });
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 /** @license Material-UI v4.9.0
  *
@@ -50633,9 +50625,7 @@ Object.keys(_typography).forEach(function (key) {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 },{"./borders":"../node_modules/@material-ui/system/esm/borders.js","./breakpoints":"../node_modules/@material-ui/system/esm/breakpoints.js","./compose":"../node_modules/@material-ui/system/esm/compose.js","./css":"../node_modules/@material-ui/system/esm/css.js","./display":"../node_modules/@material-ui/system/esm/display.js","./flexbox":"../node_modules/@material-ui/system/esm/flexbox.js","./palette":"../node_modules/@material-ui/system/esm/palette.js","./positions":"../node_modules/@material-ui/system/esm/positions.js","./shadows":"../node_modules/@material-ui/system/esm/shadows.js","./sizing":"../node_modules/@material-ui/system/esm/sizing.js","./spacing":"../node_modules/@material-ui/system/esm/spacing.js","./style":"../node_modules/@material-ui/system/esm/style.js","./typography":"../node_modules/@material-ui/system/esm/typography.js"}],"../node_modules/@material-ui/core/esm/Box/Box.js":[function(require,module,exports) {
 "use strict";
 
@@ -50682,9 +50672,7 @@ Object.defineProperty(exports, "styleFunction", {
 
 var _Box = _interopRequireWildcard(require("./Box"));
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 },{"./Box":"../node_modules/@material-ui/core/esm/Box/Box.js"}],"../node_modules/@material-ui/core/esm/Typography/Typography.js":[function(require,module,exports) {
 "use strict";
 
@@ -56210,9 +56198,7 @@ var _TrapFocus = _interopRequireDefault(require("./TrapFocus"));
 
 var _SimpleBackdrop = _interopRequireDefault(require("./SimpleBackdrop"));
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -59582,9 +59568,7 @@ var _TextareaAutosize = _interopRequireDefault(require("../TextareaAutosize"));
 
 var _utils2 = require("./utils");
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -63162,9 +63146,7 @@ Object.keys(_withWidth).forEach(function (key) {
   });
 });
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 },{"./withWidth":"../node_modules/@material-ui/core/esm/withWidth/withWidth.js"}],"../node_modules/@material-ui/core/esm/Hidden/HiddenJs.js":[function(require,module,exports) {
 "use strict";
 
@@ -63181,9 +63163,7 @@ var _withWidth = _interopRequireWildcard(require("../withWidth"));
 
 var _useTheme = _interopRequireDefault(require("../styles/useTheme"));
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -64200,9 +64180,7 @@ var _withStyles = _interopRequireDefault(require("../styles/withStyles"));
 
 var _FormControlContext = _interopRequireWildcard(require("../FormControl/FormControlContext"));
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -76729,9 +76707,7 @@ var _NoSsr = _interopRequireDefault(require("../NoSsr"));
 
 var _SwipeArea = _interopRequireDefault(require("./SwipeArea"));
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -82009,9 +81985,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _withWidth = _interopRequireWildcard(require("../withWidth"));
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -84545,9 +84519,7 @@ Object.keys(_Zoom).forEach(function (key) {
   });
 });
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 },{"./colors":"../node_modules/@material-ui/core/esm/colors/index.js","./styles":"../node_modules/@material-ui/core/esm/styles/index.js","./AppBar":"../node_modules/@material-ui/core/esm/AppBar/index.js","./Avatar":"../node_modules/@material-ui/core/esm/Avatar/index.js","./Backdrop":"../node_modules/@material-ui/core/esm/Backdrop/index.js","./Badge":"../node_modules/@material-ui/core/esm/Badge/index.js","./BottomNavigation":"../node_modules/@material-ui/core/esm/BottomNavigation/index.js","./BottomNavigationAction":"../node_modules/@material-ui/core/esm/BottomNavigationAction/index.js","./Box":"../node_modules/@material-ui/core/esm/Box/index.js","./Breadcrumbs":"../node_modules/@material-ui/core/esm/Breadcrumbs/index.js","./Button":"../node_modules/@material-ui/core/esm/Button/index.js","./ButtonBase":"../node_modules/@material-ui/core/esm/ButtonBase/index.js","./ButtonGroup":"../node_modules/@material-ui/core/esm/ButtonGroup/index.js","./Card":"../node_modules/@material-ui/core/esm/Card/index.js","./CardActionArea":"../node_modules/@material-ui/core/esm/CardActionArea/index.js","./CardActions":"../node_modules/@material-ui/core/esm/CardActions/index.js","./CardContent":"../node_modules/@material-ui/core/esm/CardContent/index.js","./CardHeader":"../node_modules/@material-ui/core/esm/CardHeader/index.js","./CardMedia":"../node_modules/@material-ui/core/esm/CardMedia/index.js","./Checkbox":"../node_modules/@material-ui/core/esm/Checkbox/index.js","./Chip":"../node_modules/@material-ui/core/esm/Chip/index.js","./CircularProgress":"../node_modules/@material-ui/core/esm/CircularProgress/index.js","./ClickAwayListener":"../node_modules/@material-ui/core/esm/ClickAwayListener/index.js","./Collapse":"../node_modules/@material-ui/core/esm/Collapse/index.js","./Container":"../node_modules/@material-ui/core/esm/Container/index.js","./CssBaseline":"../node_modules/@material-ui/core/esm/CssBaseline/index.js","./Dialog":"../node_modules/@material-ui/core/esm/Dialog/index.js","./DialogActions":"../node_modules/@material-ui/core/esm/DialogActions/index.js","./DialogContent":"../node_modules/@material-ui/core/esm/DialogContent/index.js","./DialogContentText":"../node_modules/@material-ui/core/esm/DialogContentText/index.js","./DialogTitle":"../node_modules/@material-ui/core/esm/DialogTitle/index.js","./Divider":"../node_modules/@material-ui/core/esm/Divider/index.js","./Drawer":"../node_modules/@material-ui/core/esm/Drawer/index.js","./ExpansionPanel":"../node_modules/@material-ui/core/esm/ExpansionPanel/index.js","./ExpansionPanelActions":"../node_modules/@material-ui/core/esm/ExpansionPanelActions/index.js","./ExpansionPanelDetails":"../node_modules/@material-ui/core/esm/ExpansionPanelDetails/index.js","./ExpansionPanelSummary":"../node_modules/@material-ui/core/esm/ExpansionPanelSummary/index.js","./Fab":"../node_modules/@material-ui/core/esm/Fab/index.js","./Fade":"../node_modules/@material-ui/core/esm/Fade/index.js","./FilledInput":"../node_modules/@material-ui/core/esm/FilledInput/index.js","./FormControl":"../node_modules/@material-ui/core/esm/FormControl/index.js","./FormControlLabel":"../node_modules/@material-ui/core/esm/FormControlLabel/index.js","./FormGroup":"../node_modules/@material-ui/core/esm/FormGroup/index.js","./FormHelperText":"../node_modules/@material-ui/core/esm/FormHelperText/index.js","./FormLabel":"../node_modules/@material-ui/core/esm/FormLabel/index.js","./Grid":"../node_modules/@material-ui/core/esm/Grid/index.js","./GridList":"../node_modules/@material-ui/core/esm/GridList/index.js","./GridListTile":"../node_modules/@material-ui/core/esm/GridListTile/index.js","./GridListTileBar":"../node_modules/@material-ui/core/esm/GridListTileBar/index.js","./Grow":"../node_modules/@material-ui/core/esm/Grow/index.js","./Hidden":"../node_modules/@material-ui/core/esm/Hidden/index.js","./Icon":"../node_modules/@material-ui/core/esm/Icon/index.js","./IconButton":"../node_modules/@material-ui/core/esm/IconButton/index.js","./Input":"../node_modules/@material-ui/core/esm/Input/index.js","./InputAdornment":"../node_modules/@material-ui/core/esm/InputAdornment/index.js","./InputBase":"../node_modules/@material-ui/core/esm/InputBase/index.js","./InputLabel":"../node_modules/@material-ui/core/esm/InputLabel/index.js","./LinearProgress":"../node_modules/@material-ui/core/esm/LinearProgress/index.js","./Link":"../node_modules/@material-ui/core/esm/Link/index.js","./List":"../node_modules/@material-ui/core/esm/List/index.js","./ListItem":"../node_modules/@material-ui/core/esm/ListItem/index.js","./ListItemAvatar":"../node_modules/@material-ui/core/esm/ListItemAvatar/index.js","./ListItemIcon":"../node_modules/@material-ui/core/esm/ListItemIcon/index.js","./ListItemSecondaryAction":"../node_modules/@material-ui/core/esm/ListItemSecondaryAction/index.js","./ListItemText":"../node_modules/@material-ui/core/esm/ListItemText/index.js","./ListSubheader":"../node_modules/@material-ui/core/esm/ListSubheader/index.js","./Menu":"../node_modules/@material-ui/core/esm/Menu/index.js","./MenuItem":"../node_modules/@material-ui/core/esm/MenuItem/index.js","./MenuList":"../node_modules/@material-ui/core/esm/MenuList/index.js","./MobileStepper":"../node_modules/@material-ui/core/esm/MobileStepper/index.js","./Modal":"../node_modules/@material-ui/core/esm/Modal/index.js","./NativeSelect":"../node_modules/@material-ui/core/esm/NativeSelect/index.js","./NoSsr":"../node_modules/@material-ui/core/esm/NoSsr/index.js","./OutlinedInput":"../node_modules/@material-ui/core/esm/OutlinedInput/index.js","./Paper":"../node_modules/@material-ui/core/esm/Paper/index.js","./Popover":"../node_modules/@material-ui/core/esm/Popover/index.js","./Popper":"../node_modules/@material-ui/core/esm/Popper/index.js","./Portal":"../node_modules/@material-ui/core/esm/Portal/index.js","./Radio":"../node_modules/@material-ui/core/esm/Radio/index.js","./RadioGroup":"../node_modules/@material-ui/core/esm/RadioGroup/index.js","./RootRef":"../node_modules/@material-ui/core/esm/RootRef/index.js","./Select":"../node_modules/@material-ui/core/esm/Select/index.js","./Slide":"../node_modules/@material-ui/core/esm/Slide/index.js","./Slider":"../node_modules/@material-ui/core/esm/Slider/index.js","./Snackbar":"../node_modules/@material-ui/core/esm/Snackbar/index.js","./SnackbarContent":"../node_modules/@material-ui/core/esm/SnackbarContent/index.js","./Step":"../node_modules/@material-ui/core/esm/Step/index.js","./StepButton":"../node_modules/@material-ui/core/esm/StepButton/index.js","./StepConnector":"../node_modules/@material-ui/core/esm/StepConnector/index.js","./StepContent":"../node_modules/@material-ui/core/esm/StepContent/index.js","./StepIcon":"../node_modules/@material-ui/core/esm/StepIcon/index.js","./StepLabel":"../node_modules/@material-ui/core/esm/StepLabel/index.js","./Stepper":"../node_modules/@material-ui/core/esm/Stepper/index.js","./SvgIcon":"../node_modules/@material-ui/core/esm/SvgIcon/index.js","./SwipeableDrawer":"../node_modules/@material-ui/core/esm/SwipeableDrawer/index.js","./Switch":"../node_modules/@material-ui/core/esm/Switch/index.js","./Tab":"../node_modules/@material-ui/core/esm/Tab/index.js","./Table":"../node_modules/@material-ui/core/esm/Table/index.js","./TableBody":"../node_modules/@material-ui/core/esm/TableBody/index.js","./TableCell":"../node_modules/@material-ui/core/esm/TableCell/index.js","./TableContainer":"../node_modules/@material-ui/core/esm/TableContainer/index.js","./TableFooter":"../node_modules/@material-ui/core/esm/TableFooter/index.js","./TableHead":"../node_modules/@material-ui/core/esm/TableHead/index.js","./TablePagination":"../node_modules/@material-ui/core/esm/TablePagination/index.js","./TableRow":"../node_modules/@material-ui/core/esm/TableRow/index.js","./TableSortLabel":"../node_modules/@material-ui/core/esm/TableSortLabel/index.js","./Tabs":"../node_modules/@material-ui/core/esm/Tabs/index.js","./TextField":"../node_modules/@material-ui/core/esm/TextField/index.js","./TextareaAutosize":"../node_modules/@material-ui/core/esm/TextareaAutosize/index.js","./Toolbar":"../node_modules/@material-ui/core/esm/Toolbar/index.js","./Tooltip":"../node_modules/@material-ui/core/esm/Tooltip/index.js","./Typography":"../node_modules/@material-ui/core/esm/Typography/index.js","./useMediaQuery":"../node_modules/@material-ui/core/esm/useMediaQuery/index.js","./useScrollTrigger":"../node_modules/@material-ui/core/esm/useScrollTrigger/index.js","./withMobileDialog":"../node_modules/@material-ui/core/esm/withMobileDialog/index.js","./withWidth":"../node_modules/@material-ui/core/esm/withWidth/index.js","./Zoom":"../node_modules/@material-ui/core/esm/Zoom/index.js"}],"../src/Components/Layouts/Header.js":[function(require,module,exports) {
 "use strict";
 
@@ -84600,9 +84572,10 @@ var Header = function Header(_ref) {
     }
   }, _react.default.createElement(_core.Typography, {
     style: {
-      color: "#45b29a"
+      color: "#45b29a",
+      fontFamily: "Indie Flower"
     },
-    variant: "h4"
+    variant: "h2"
   }, "Portfolio"), _react.default.createElement("div", {
     style: {
       display: "flex",
@@ -84640,7 +84613,81 @@ var Header = function Header(_ref) {
 
 var _default = Header;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core":"../node_modules/@material-ui/core/esm/index.js"}],"../src/Components/Home.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core":"../node_modules/@material-ui/core/esm/index.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"../node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+var bundle = require('./bundle-url');
+
+function updateLink(link) {
+  var newLink = link.cloneNode();
+
+  newLink.onload = function () {
+    link.remove();
+  };
+
+  newLink.href = link.href.split('?')[0] + '?' + Date.now();
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+
+var cssTimeout = null;
+
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+
+    for (var i = 0; i < links.length; i++) {
+      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
+        updateLink(links[i]);
+      }
+    }
+
+    cssTimeout = null;
+  }, 50);
+}
+
+module.exports = reloadCSS;
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../src/Components/Home.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"images/me.svg":[function(require,module,exports) {
+module.exports = "/me.4cc94a46.svg";
+},{}],"../src/Components/Home.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -84650,71 +84697,99 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+require("./Home.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Home = function Home() {
   return _react.default.createElement("div", {
-    style: {
-      flex: 1,
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center"
-    }
+    className: "container"
   }, _react.default.createElement("div", {
-    style: {
-      color: "#45b29a",
-      display: "flex",
-      backgroundColor: "#e0ebe8",
-      flex: 0.1,
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center"
-    }
+    className: "topIntroduction"
   }, _react.default.createElement("p", {
-    style: {
-      margin: 14,
-      fontFamily: "Indie Flower",
-      fontSize: 46,
-      textAlign: "center"
-    }
+    className: "nameTag"
   }, "I'm Alan."), _react.default.createElement("p", {
-    style: {
-      margin: 14,
-      fontFamily: "Roboto Mono",
-      fontSize: 20,
-      textAlign: "center"
-    }
+    className: "textParagraph"
   }, "a web developer")), _react.default.createElement("div", {
-    style: {
-      flex: 0.1,
-      backgroundColor: "#e0ebe8",
-      justifyContent: "center",
-      alignItems: "center",
-      display: "flex"
-    }
+    className: "headerImageWrapper"
   }, _react.default.createElement("img", {
-    style: {
-      maxWidth: "100%",
-      height: "auto",
-      width: "auto"
-    },
+    className: "image",
     src: "http://seanhalpin.io/assets/img/content/home/masthead/land.svg",
     alt: "home-pic"
   })), _react.default.createElement("div", {
-    style: {
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "space-between",
-      flex: 1,
-      // height: "100%",
-      fontSize: 40
-    }
-  }, _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense")));
+    className: "outerWrapper"
+  }, _react.default.createElement("div", {
+    className: "innerWrapper"
+  }, _react.default.createElement("img", {
+    className: "faceImage",
+    alt: "pirate",
+    src: require("../../public/images/me.svg")
+  }), _react.default.createElement("p", {
+    className: "textParagraph"
+  }, _react.default.createElement("span", {
+    className: "bigText"
+  }, "Hello.")), _react.default.createElement("p", {
+    className: "textParagraph"
+  }, "I'm a web developer / software enginear based in Stockholm, Sweden. I have a big passion for web/app development and I love to solve problems."))), _react.default.createElement("div", {
+    className: "dotted"
+  }), _react.default.createElement("div", {
+    className: "innerWrapper"
+  }, _react.default.createElement("p", {
+    className: "textParagraph"
+  }, _react.default.createElement("span", {
+    className: "bigText"
+  }, "What I can do.")), _react.default.createElement("div", {
+    className: "imageAndText"
+  }, _react.default.createElement("div", {
+    className: "innerImageAndTextWrapper"
+  }, _react.default.createElement("div", {
+    className: "innerImageAndText"
+  }, _react.default.createElement("img", {
+    className: "faceImage",
+    alt: "pirate",
+    src: require("../../public/images/me.svg")
+  }), _react.default.createElement("img", {
+    className: "faceImage",
+    alt: "pirate",
+    src: require("../../public/images/me.svg")
+  })), _react.default.createElement("div", {
+    className: "innerImageAndText"
+  }, _react.default.createElement("div", {
+    className: "textWrapper"
+  }, _react.default.createElement("p", {
+    className: "textParagraph"
+  }, "Develop the website that is on your mind"), _react.default.createElement("p", {
+    className: "textParagraph"
+  }, "I like to keep it simple. My goals are to focus on development, content and implementation of your ideas.")))), _react.default.createElement("div", null, _react.default.createElement("div", {
+    className: "innerImageAndTextWrapper"
+  }, _react.default.createElement("div", {
+    className: "innerImageAndText"
+  }, _react.default.createElement("div", {
+    className: "textWrapper"
+  }, _react.default.createElement("p", {
+    className: "textParagraph"
+  }, _react.default.createElement("span", {
+    className: "bigText"
+  }, "Develop the application you need")), _react.default.createElement("p", {
+    className: "textParagraph"
+  }, "As a software enginear you have to be flexible, I know all about creating an application to run across devices using the latest technologies."))), _react.default.createElement("div", {
+    className: "innerImageAndText"
+  }, _react.default.createElement("img", {
+    className: "faceImage",
+    alt: "pirate",
+    src: require("../../public/images/me.svg")
+  }), _react.default.createElement("img", {
+    className: "faceImage",
+    alt: "pirate",
+    src: require("../../public/images/me.svg")
+  })))))), _react.default.createElement("div", {
+    className: "dotted"
+  }));
 };
 
 var _default = Home;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"../src/Components/EditExpensePage.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Home.css":"../src/Components/Home.css","../../public/images/me.svg":"images/me.svg"}],"../src/Components/EditExpensePage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -84928,79 +85003,12 @@ var AppRouter = function AppRouter() {
 
 var _default = AppRouter;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Components/Layouts/Header":"../src/Components/Layouts/Header.js","../Components/Home":"../src/Components/Home.js","../Components/EditExpensePage":"../src/Components/EditExpensePage.js","../Components/HelpPage":"../src/Components/HelpPage.js","../Components/NotFoundPage":"../src/Components/NotFoundPage.js","../Components/Layouts/Footer":"../src/Components/Layouts/Footer.js","../Components/Projects":"../src/Components/Projects.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
-
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
-  }
-
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
-      }
-    }
-
-    cssTimeout = null;
-  }, 50);
-}
-
-module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../src/styles/styles.scss":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Components/Layouts/Header":"../src/Components/Layouts/Header.js","../Components/Home":"../src/Components/Home.js","../Components/EditExpensePage":"../src/Components/EditExpensePage.js","../Components/HelpPage":"../src/Components/HelpPage.js","../Components/NotFoundPage":"../src/Components/NotFoundPage.js","../Components/Layouts/Footer":"../src/Components/Layouts/Footer.js","../Components/Projects":"../src/Components/Projects.js"}],"../src/styles/styles.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/app.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/app.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -85014,7 +85022,7 @@ require("./styles/styles.scss");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom.default.render(_react.default.createElement(_AppRouter.default, null), document.getElementById('app'));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./Routers/AppRouter":"../src/Routers/AppRouter.js","./styles/styles.scss":"../src/styles/styles.scss"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./Routers/AppRouter":"../src/Routers/AppRouter.js","./styles/styles.scss":"../src/styles/styles.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -85042,7 +85050,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57540" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63009" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -85073,9 +85081,8 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
         assetsToAccept.forEach(function (v) {
           hmrAcceptRun(v[0], v[1]);
         });
-      } else if (location.reload) {
-        // `location` global exists in a web worker context but lacks `.reload()` function.
-        location.reload();
+      } else {
+        window.location.reload();
       }
     }
 
@@ -85218,5 +85225,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../src/app.js"], null)
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../src/app.js"], null)
 //# sourceMappingURL=/app.581aa3f0.js.map
