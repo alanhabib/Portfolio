@@ -9,6 +9,7 @@ import {
   Slide,
   useScrollTrigger
 } from "@material-ui/core";
+import { Flipper } from "react-flip-toolkit";
 
 function HideOnScroll(props) {
   const { children } = props;
@@ -104,10 +105,10 @@ const Header = ({ props }) => {
                   paddingRight: 8,
                   paddingLeft: 8
                 }}
-                to={"/help"}
+                to={"/contact"}
                 activeClassName={"is-active"}
               >
-                Help
+                Contact
               </NavLink>
             </div>
           </Toolbar>
