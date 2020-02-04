@@ -15,6 +15,7 @@
     "prop-types": "^15.7.2",
     "react": ">= 16.8.0",
     "react-dom": ">= 16.8.0",
+    "react-flip-toolkit": "^7.0.7",
     "react-is": ">= 16.8.0",
     "react-router-dom": "^5.0.0",
     "sass": "^1.20.1",

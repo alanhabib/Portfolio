@@ -2,21 +2,36 @@ import React from "react";
 import { withFormik, Form, Field } from "formik";
 import * as Yup from "yup";
 
-const Contact = ({ values, errors }) => {
+const Contact = ({
+  values,
+  errors,
+  touched,
+  isSubmitting
+}) => {
   return (
     <Form style={{ flex: 1 }}>
-      <Field
-        type="email"
-        name="email"
-        placeholder="Email"
-        value={values.email}
-      />
-      <Field
-        type="password"
-        name="password"
-        placeholder="Password"
-        value={values.password}
-      />
+      <div>
+        {touched.email && errors.email && (
+          <p>{errors.email}</p>
+        )}
+        <Field
+          type="email"
+          name="email"
+          placeholder="Email"
+          value={values.email}
+        />
+      </div>
+      <div>
+        {touched.password && errors.password && (
+          <p>{errors.password}</p>
+        )}
+        <Field
+          type="password"
+          name="password"
+          placeholder="Password"
+          value={values.password}
+        />
+      </div>
       <label>
         <Field
           type="checkbox"
@@ -29,7 +44,7 @@ const Contact = ({ values, errors }) => {
         <option value="free">Free</option>
         <option value="premium">Premium</option>
       </Field>
-      <button type="button">Submit</button>
+      <button disabled={isSubmitting}>Submit</button>
     </Form>
   );
 };
@@ -45,13 +60,24 @@ const FormikApp = withFormik({
   },
   validationSchema: Yup.object().shape({
     email: Yup.string()
-      .email()
-      .required(),
+      .email("Email not valid")
+      .required("Email is required"),
     password: Yup.string()
-      .min(9)
-      .required()
+      .min(9, "Password must be 9 characters or longer")
+      .required("Password is required")
   }),
-  handleSubmit(values) {
+  handleSubmit(
+    values,
+    { resetForm, setErrors, setSubmitting }
+  ) {
+    setTimeout(() => {
+      if (values.email === "alan.habib@ding.se") {
+        setErrors({ email: "That email is already taken" });
+      } else {
+        resetForm();
+      }
+      setSubmitting(false);
+    }, 2000);
     console.log(values);
   }
 })(Contact);

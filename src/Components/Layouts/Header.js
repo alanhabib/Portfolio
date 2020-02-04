@@ -9,6 +9,7 @@ import {
   Slide,
   useScrollTrigger
 } from "@material-ui/core";
+import { Flipper } from "react-flip-toolkit";
 
 function HideOnScroll(props) {
   const { children } = props;
