@@ -7,9 +7,10 @@ const Projects = () => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        flex: 1,
-        // height: "100%",
-        fontSize: 40
+        height: "100vh",
+        fontSize: 20,
+        backgroundColor: "green",
+        width: "100%"
       }}
     >
       <h2>added expense added expense</h2>
@@ -17,70 +18,6 @@ const Projects = () => {
       <h2>
         added expense added expense added expense added
         expense added expense
-      </h2>
-      <h2>
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense
-      </h2>
-      <h2>
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense
-      </h2>
-      <h2>
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense
-      </h2>
-      <h2>
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense
-      </h2>
-      <h2>
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense
-      </h2>
-      <h2>
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense added
-        expense added expense added expense added expense
-        added expense added expense added expense
       </h2>
     </div>
   );

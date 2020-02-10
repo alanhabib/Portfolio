@@ -1,5 +1,5 @@
 .container {
-  flex: 1;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -9,10 +9,11 @@
   color: #45b29a;
   display: flex;
   background-color: #e0ebe8;
-  flex: 0.1;
+  /* flex: 0.1; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .nameTag {
@@ -29,7 +30,8 @@
 }
 
 .headerImageWrapper {
-  flex: 0.1;
+  /* flex: 0.1; */
+  width: 100%;
   background-color: #e0ebe8;
   justify-content: center;
   align-items: center;
@@ -100,4 +102,14 @@
 .bigText {
   color: #45b29a;
   font-size: 26px;
+}
+
+.firstSection {
+  background-color: black;
+}
+
+.secondSection {
+}
+
+.thirdSection {
 }

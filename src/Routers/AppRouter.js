@@ -11,6 +11,8 @@ import Contact from "../Components/Contact";
 import NotFoundPage from "../Components/NotFoundPage";
 import Footer from "../Components/Layouts/Footer";
 import Projects from "../Components/Projects";
+import About from "../Components/About";
+import LandingPage from "../Components/LandingPage";
 
 const AppRouter = () => {
   return (
@@ -26,7 +28,9 @@ const AppRouter = () => {
       >
         <Header />
         <Switch>
-          <Route exact path={"/"} component={Home} />
+          <Route exact path={"/"} component={LandingPage} />
+          <Route path={"/home"} component={Home} />
+          <Route path={"/about"} component={About} />
           <Route path={"/projects"} component={Projects} />
           <Route
             path={"/edit/:id"}

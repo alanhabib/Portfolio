@@ -85948,10 +85948,17 @@ var Header = function Header(_ref) {
       paddingRight: 8,
       paddingLeft: 8
     },
-    exact: true,
-    to: "/",
+    to: "/home",
     activeClassName: "is-active"
   }, "Home"), _react.default.createElement(_reactRouterDom.NavLink, {
+    style: {
+      color: "#45b29a",
+      paddingRight: 8,
+      paddingLeft: 8
+    },
+    to: "/about",
+    activeClassName: "is-active"
+  }, "About"), _react.default.createElement(_reactRouterDom.NavLink, {
     style: {
       color: "#45b29a",
       paddingRight: 8,
@@ -86044,9 +86051,76 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"images/me.svg":[function(require,module,exports) {
-module.exports = "/me.4cc94a46.svg";
-},{}],"../src/Components/Home.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/Components/About.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var About =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(About, _Component);
+
+  function About() {
+    _classCallCheck(this, About);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(About).apply(this, arguments));
+  }
+
+  _createClass(About, [{
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", {
+        style: {
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          height: "100vh",
+          fontSize: 20,
+          backgroundColor: "red",
+          width: "100%"
+        }
+      }, "This is my about page");
+    }
+  }]);
+
+  return About;
+}(_react.Component);
+
+exports.default = About;
+About.propTypes = {
+  prop: _propTypes.default
+};
+},{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js"}],"../src/Components/Projects.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -86056,99 +86130,228 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Projects = function Projects() {
+  return _react.default.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+      height: "100vh",
+      fontSize: 20,
+      backgroundColor: "green",
+      width: "100%"
+    }
+  }, _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense"));
+};
+
+var _default = Projects;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js"}],"../node_modules/classnames/index.js":[function(require,module,exports) {
+var define;
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+/* global define */
+
+(function () {
+	'use strict';
+
+	var hasOwn = {}.hasOwnProperty;
+
+	function classNames () {
+		var classes = [];
+
+		for (var i = 0; i < arguments.length; i++) {
+			var arg = arguments[i];
+			if (!arg) continue;
+
+			var argType = typeof arg;
+
+			if (argType === 'string' || argType === 'number') {
+				classes.push(arg);
+			} else if (Array.isArray(arg) && arg.length) {
+				var inner = classNames.apply(null, arg);
+				if (inner) {
+					classes.push(inner);
+				}
+			} else if (argType === 'object') {
+				for (var key in arg) {
+					if (hasOwn.call(arg, key) && arg[key]) {
+						classes.push(key);
+					}
+				}
+			}
+		}
+
+		return classes.join(' ');
+	}
+
+	if (typeof module !== 'undefined' && module.exports) {
+		classNames.default = classNames;
+		module.exports = classNames;
+	} else if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {
+		// register as 'classnames', consistent with npm package name
+		define('classnames', [], function () {
+			return classNames;
+		});
+	} else {
+		window.classNames = classNames;
+	}
+}());
+
+},{}],"images/me.svg":[function(require,module,exports) {
+module.exports = "/me.4cc94a46.svg";
+},{}],"../src/Components/Home.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
 require("./Home.css");
+
+var _About = _interopRequireDefault(require("./About"));
+
+var _Projects = _interopRequireDefault(require("./Projects"));
+
+var _classnames = _interopRequireDefault(require("classnames"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Home = function Home() {
-  return _react.default.createElement("div", {
-    className: "container"
-  }, _react.default.createElement("div", {
-    className: "topIntroduction"
-  }, _react.default.createElement("p", {
-    className: "nameTag"
-  }, "I'm Alan."), _react.default.createElement("p", {
-    className: "textParagraph"
-  }, "a web developer")), _react.default.createElement("div", {
-    className: "headerImageWrapper"
-  }, _react.default.createElement("img", {
-    className: "image",
-    src: "http://seanhalpin.io/assets/img/content/home/masthead/land.svg",
-    alt: "home-pic"
-  })), _react.default.createElement("div", {
-    className: "outerWrapper"
-  }, _react.default.createElement("div", {
-    className: "innerWrapper"
-  }, _react.default.createElement("img", {
-    className: "faceImage",
-    alt: "pirate",
-    src: require("../../public/images/me.svg")
-  }), _react.default.createElement("p", {
-    className: "textParagraph"
-  }, _react.default.createElement("span", {
-    className: "bigText"
-  }, "Hello.")), _react.default.createElement("p", {
-    className: "textParagraph"
-  }, "I'm a web developer / software enginear based in Stockholm, Sweden. I have a big passion for web/app development and I love to solve problems."))), _react.default.createElement("div", {
-    className: "dotted"
-  }), _react.default.createElement("div", {
-    className: "innerWrapper"
-  }, _react.default.createElement("p", {
-    className: "textParagraph"
-  }, _react.default.createElement("span", {
-    className: "bigText"
-  }, "What I can do.")), _react.default.createElement("div", {
-    className: "imageAndText"
-  }, _react.default.createElement("div", {
-    className: "innerImageAndTextWrapper"
-  }, _react.default.createElement("div", {
-    className: "innerImageAndText"
-  }, _react.default.createElement("img", {
-    className: "faceImage",
-    alt: "pirate",
-    src: require("../../public/images/me.svg")
-  }), _react.default.createElement("img", {
-    className: "faceImage",
-    alt: "pirate",
-    src: require("../../public/images/me.svg")
-  })), _react.default.createElement("div", {
-    className: "innerImageAndText"
-  }, _react.default.createElement("div", {
-    className: "textWrapper"
-  }, _react.default.createElement("p", {
-    className: "textParagraph"
-  }, "Develop the website that is on your mind"), _react.default.createElement("p", {
-    className: "textParagraph"
-  }, "I like to keep it simple. My goals are to focus on development, content and implementation of your ideas.")))), _react.default.createElement("div", null, _react.default.createElement("div", {
-    className: "innerImageAndTextWrapper"
-  }, _react.default.createElement("div", {
-    className: "innerImageAndText"
-  }, _react.default.createElement("div", {
-    className: "textWrapper"
-  }, _react.default.createElement("p", {
-    className: "textParagraph"
-  }, _react.default.createElement("span", {
-    className: "bigText"
-  }, "Develop the application you need")), _react.default.createElement("p", {
-    className: "textParagraph"
-  }, "As a software enginear you have to be flexible, I know all about creating an application to run across devices using the latest technologies."))), _react.default.createElement("div", {
-    className: "innerImageAndText"
-  }, _react.default.createElement("img", {
-    className: "faceImage",
-    alt: "pirate",
-    src: require("../../public/images/me.svg")
-  }), _react.default.createElement("img", {
-    className: "faceImage",
-    alt: "pirate",
-    src: require("../../public/images/me.svg")
-  })))))), _react.default.createElement("div", {
-    className: "dotted"
-  }));
-};
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Home =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Home, _Component);
+
+  function Home() {
+    _classCallCheck(this, Home);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Home).apply(this, arguments));
+  }
+
+  _createClass(Home, [{
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", {
+        className: (0, _classnames.default)("container" // "firstSection"
+        )
+      }, _react.default.createElement("div", {
+        className: "topIntroduction"
+      }, _react.default.createElement("p", {
+        className: "nameTag"
+      }, "I'm Alan."), _react.default.createElement("p", {
+        className: "textParagraph"
+      }, "a web developer")), _react.default.createElement("div", {
+        className: "headerImageWrapper"
+      }, _react.default.createElement("img", {
+        className: "image",
+        src: "http://seanhalpin.io/assets/img/content/home/masthead/land.svg",
+        alt: "home-pic"
+      })), _react.default.createElement("div", {
+        className: "outerWrapper"
+      }, _react.default.createElement("div", {
+        className: "innerWrapper"
+      }, _react.default.createElement("img", {
+        className: "faceImage",
+        alt: "pirate",
+        src: require("../../public/images/me.svg")
+      }), _react.default.createElement("p", {
+        className: "textParagraph"
+      }, _react.default.createElement("span", {
+        className: "bigText"
+      }, "Hello.")), _react.default.createElement("p", {
+        className: "textParagraph"
+      }, "I'm a web developer / software enginear based in Stockholm, Sweden. I have a big passion for web/app development and I love to solve problems."))), _react.default.createElement("div", {
+        className: "dotted"
+      }), _react.default.createElement("div", {
+        className: "innerWrapper"
+      }, _react.default.createElement("p", {
+        className: "textParagraph"
+      }, _react.default.createElement("span", {
+        className: "bigText"
+      }, "What I can do.")), _react.default.createElement("div", {
+        className: "imageAndText"
+      }, _react.default.createElement("div", {
+        className: "innerImageAndTextWrapper"
+      }, _react.default.createElement("div", {
+        className: "innerImageAndText"
+      }, _react.default.createElement("img", {
+        className: "faceImage",
+        alt: "pirate",
+        src: require("../../public/images/me.svg")
+      }), _react.default.createElement("img", {
+        className: "faceImage",
+        alt: "pirate",
+        src: require("../../public/images/me.svg")
+      })), _react.default.createElement("div", {
+        className: "innerImageAndText"
+      }, _react.default.createElement("div", {
+        className: "textWrapper"
+      }, _react.default.createElement("p", {
+        className: "textParagraph"
+      }, "Develop the website that is on your mind"), _react.default.createElement("p", {
+        className: "textParagraph"
+      }, "I like to keep it simple. My goals are to focus on development, content and implementation of your ideas.")))), _react.default.createElement("div", null, _react.default.createElement("div", {
+        className: "innerImageAndTextWrapper"
+      }, _react.default.createElement("div", {
+        className: "innerImageAndText"
+      }, _react.default.createElement("div", {
+        className: "textWrapper"
+      }, _react.default.createElement("p", {
+        className: "textParagraph"
+      }, _react.default.createElement("span", {
+        className: "bigText"
+      }, "Develop the application you need")), _react.default.createElement("p", {
+        className: "textParagraph"
+      }, "As a software enginear you have to be flexible, I know all about creating an application to run across devices using the latest technologies."))), _react.default.createElement("div", {
+        className: "innerImageAndText"
+      }, _react.default.createElement("img", {
+        className: "faceImage",
+        alt: "pirate",
+        src: require("../../public/images/me.svg")
+      }), _react.default.createElement("img", {
+        className: "faceImage",
+        alt: "pirate",
+        src: require("../../public/images/me.svg")
+      })))))), _react.default.createElement("div", {
+        className: "dotted"
+      }));
+    }
+  }]);
+
+  return Home;
+}(_react.Component);
 
 var _default = Home;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","./Home.css":"../src/Components/Home.css","../../public/images/me.svg":"images/me.svg"}],"../src/Components/EditExpensePage.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Home.css":"../src/Components/Home.css","./About":"../src/Components/About.js","./Projects":"../src/Components/Projects.js","classnames":"../node_modules/classnames/index.js","../../public/images/me.svg":"images/me.svg"}],"../src/Components/EditExpensePage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -99341,7 +99544,7 @@ var Footer = function Footer() {
 
 var _default = Footer;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core":"../node_modules/@material-ui/core/esm/index.js"}],"../src/Components/Projects.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","prop-types":"../node_modules/prop-types/index.js","@material-ui/core":"../node_modules/@material-ui/core/esm/index.js"}],"../src/Components/TrackVisbility.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -99349,26 +99552,175 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var TrackVisbility =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(TrackVisbility, _Component);
+
+  function TrackVisbility() {
+    var _this;
+
+    _classCallCheck(this, TrackVisbility);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(TrackVisbility).call(this));
+
+    _this.animationNavHandler = function () {
+      var observer = new IntersectionObserver(function (_ref) {
+        var _ref2 = _slicedToArray(_ref, 1),
+            entry = _ref2[0];
+
+        if (entry.intersectionRatio > 0.7) {
+          var className = entry.target.className;
+          console.log(className);
+          return _this.props.onVisible();
+        }
+      }, {
+        threshold: 0.7
+      });
+
+      if (_this.ref.current) {
+        observer.observe(_this.ref.current);
+      }
+    };
+
+    _this.ref = _react.default.createRef();
+    return _this;
+  }
+
+  _createClass(TrackVisbility, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.animationNavHandler();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", {
+        ref: this.ref
+      }, this.props.children);
+    }
+  }]);
+
+  return TrackVisbility;
+}(_react.Component);
+
+exports.default = TrackVisbility;
+},{"react":"../node_modules/react/index.js"}],"../src/Components/LandingPage.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _Home = _interopRequireDefault(require("./Home"));
+
+var _About = _interopRequireDefault(require("./About"));
+
+var _Projects = _interopRequireDefault(require("./Projects"));
+
+var _TrackVisbility = _interopRequireDefault(require("./TrackVisbility"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Projects = function Projects() {
-  return _react.default.createElement("div", {
-    style: {
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "space-between",
-      flex: 1,
-      // height: "100%",
-      fontSize: 40
-    }
-  }, _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"), _react.default.createElement("h2", null, "added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense added expense"));
-};
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
-var _default = Projects;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"../src/Routers/AppRouter.js":[function(require,module,exports) {
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var LandingPage =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(LandingPage, _Component);
+
+  function LandingPage() {
+    _classCallCheck(this, LandingPage);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(LandingPage).apply(this, arguments));
+  }
+
+  _createClass(LandingPage, [{
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", {
+        className: "home"
+      }, _react.default.createElement(_TrackVisbility.default, {
+        onVisible: function onVisible() {
+          return console.log("HOME");
+        }
+      }, _react.default.createElement(_Home.default, null)), _react.default.createElement("div", {
+        className: "about"
+      }, _react.default.createElement(_TrackVisbility.default, {
+        onVisible: function onVisible() {
+          return console.log("About");
+        }
+      }, _react.default.createElement(_About.default, null))), _react.default.createElement("div", {
+        className: "projects"
+      }, _react.default.createElement(_TrackVisbility.default, {
+        onVisible: function onVisible() {
+          return console.log("Projects");
+        }
+      }, _react.default.createElement(_Projects.default, null))));
+    }
+  }]);
+
+  return LandingPage;
+}(_react.Component);
+
+exports.default = LandingPage;
+LandingPage.propTypes = {
+  prop: _propTypes.default
+};
+},{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","./Home":"../src/Components/Home.js","./About":"../src/Components/About.js","./Projects":"../src/Components/Projects.js","./TrackVisbility":"../src/Components/TrackVisbility.js"}],"../src/Routers/AppRouter.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -99394,6 +99746,10 @@ var _Footer = _interopRequireDefault(require("../Components/Layouts/Footer"));
 
 var _Projects = _interopRequireDefault(require("../Components/Projects"));
 
+var _About = _interopRequireDefault(require("../Components/About"));
+
+var _LandingPage = _interopRequireDefault(require("../Components/LandingPage"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var AppRouter = function AppRouter() {
@@ -99408,7 +99764,13 @@ var AppRouter = function AppRouter() {
   }, _react.default.createElement(_Header.default, null), _react.default.createElement(_reactRouterDom.Switch, null, _react.default.createElement(_reactRouterDom.Route, {
     exact: true,
     path: "/",
+    component: _LandingPage.default
+  }), _react.default.createElement(_reactRouterDom.Route, {
+    path: "/home",
     component: _Home.default
+  }), _react.default.createElement(_reactRouterDom.Route, {
+    path: "/about",
+    component: _About.default
   }), _react.default.createElement(_reactRouterDom.Route, {
     path: "/projects",
     component: _Projects.default
@@ -99425,7 +99787,7 @@ var AppRouter = function AppRouter() {
 
 var _default = AppRouter;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Components/Layouts/Header":"../src/Components/Layouts/Header.js","../Components/Home":"../src/Components/Home.js","../Components/EditExpensePage":"../src/Components/EditExpensePage.js","../Components/Contact":"../src/Components/Contact.js","../Components/NotFoundPage":"../src/Components/NotFoundPage.js","../Components/Layouts/Footer":"../src/Components/Layouts/Footer.js","../Components/Projects":"../src/Components/Projects.js"}],"../src/styles/styles.scss":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Components/Layouts/Header":"../src/Components/Layouts/Header.js","../Components/Home":"../src/Components/Home.js","../Components/EditExpensePage":"../src/Components/EditExpensePage.js","../Components/Contact":"../src/Components/Contact.js","../Components/NotFoundPage":"../src/Components/NotFoundPage.js","../Components/Layouts/Footer":"../src/Components/Layouts/Footer.js","../Components/Projects":"../src/Components/Projects.js","../Components/About":"../src/Components/About.js","../Components/LandingPage":"../src/Components/LandingPage.js"}],"../src/styles/styles.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -99472,7 +99834,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59877" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59518" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
