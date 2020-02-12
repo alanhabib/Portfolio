@@ -14,8 +14,6 @@ export default class TrackVisbility extends Component {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.intersectionRatio > 0.7) {
-          const className = entry.target.className;
-          console.log(className);
           return this.props.onVisible();
         }
       },

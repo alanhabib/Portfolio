@@ -44,8 +44,7 @@ class Home extends Component {
             </p>
           </div>
         </div>
-        <div className={"dotted"}></div>
-        <div className={"innerWrapper"}>
+        {/* <div className={"innerWrapper"}>
           <p className={"textParagraph"}>
             <span className={"bigText"}>
               What I can do.
@@ -111,7 +110,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className={"dotted"}></div>
+        <div className={"dotted"}></div> */}
       </div>
     );
   }

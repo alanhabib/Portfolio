@@ -12,26 +12,24 @@ export default class LandingPage extends Component {
 
   render() {
     return (
-      <div className={"home"}>
+      <div>
         <TrackVisbility
           onVisible={() => console.log("HOME")}
         >
           <Home />
         </TrackVisbility>
-        <div className={"about"}>
-          <TrackVisbility
-            onVisible={() => console.log("About")}
-          >
-            <About />
-          </TrackVisbility>
-        </div>
-        <div className={"projects"}>
-          <TrackVisbility
-            onVisible={() => console.log("Projects")}
-          >
-            <Projects />
-          </TrackVisbility>
-        </div>
+        <div className={"dotted"}></div>
+        <TrackVisbility
+          onVisible={() => console.log("About")}
+        >
+          <About />
+        </TrackVisbility>
+        <div className={"dotted"}></div>
+        <TrackVisbility
+          onVisible={() => console.log("Projects")}
+        >
+          <Projects />
+        </TrackVisbility>
       </div>
     );
   }
