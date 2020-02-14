@@ -1,5 +1,5 @@
 .container {
-  flex: 1;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -9,10 +9,11 @@
   color: #45b29a;
   display: flex;
   background-color: #e0ebe8;
-  flex: 0.1;
+  /* flex: 0.1; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .nameTag {
@@ -29,7 +30,8 @@
 }
 
 .headerImageWrapper {
-  flex: 0.1;
+  /* flex: 0.1; */
+  width: 100%;
   background-color: #e0ebe8;
   justify-content: center;
   align-items: center;
@@ -100,6 +102,43 @@
 .bigText {
   color: #45b29a;
   font-size: 26px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.box {
+  border-radius: 12px;
+  /* background-color: grey; */
+  border-radius: 6px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
+    0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  height: 80vh;
+  width: 80vh;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  flex-basis: 0;
 }
 
 html {

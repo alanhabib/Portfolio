@@ -82,11 +82,21 @@ const Header = ({ props }) => {
                   paddingRight: 8,
                   paddingLeft: 8
                 }}
-                exact
-                to={"/"}
+                to={"/home"}
                 activeClassName={"is-active"}
               >
                 Home
+              </NavLink>
+              <NavLink
+                style={{
+                  color: "#45b29a",
+                  paddingRight: 8,
+                  paddingLeft: 8
+                }}
+                to={"/about"}
+                activeClassName={"is-active"}
+              >
+                About
               </NavLink>
               <NavLink
                 style={{
