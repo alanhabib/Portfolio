@@ -18,10 +18,10 @@ export default class About extends Component {
           <div className={"content"}>
             <div className={"columns"}>
               <div className={"column"}>
-                This is my first column
+                <p>Front-end Developer</p>
               </div>
               <div className={"column"}>
-                This is my second column
+                Back-end Developer (in-progress)
               </div>
             </div>
           </div>
