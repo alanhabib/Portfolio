@@ -1,36 +1,53 @@
-import React, { Component } from "react";
+import React, {Component, Fragment} from "react";
 import PropTypes from "prop-types";
-import Home from "./Home";
-import About from "./About";
+import Home from "./Home/Home";
+import About from "./About/About";
 import Projects from "./Projects";
 import TrackVisbility from "./TrackVisbility";
+import Fade from "react-reveal/Fade";
+
+const animateList = [
+	<Home/>,
+	<About/>,
+	<Projects/>
+];
 
 export default class LandingPage extends Component {
-  static propTypes = {
-    prop: PropTypes
-  };
+	static propTypes = {
+		prop: PropTypes
+	};
 
-  render() {
-    return (
-      <div>
-        <TrackVisbility
-          onVisible={() => console.log("HOME")}
-        >
-          <Home />
-        </TrackVisbility>
-        <div className={"dotted"}></div>
-        <TrackVisbility
-          onVisible={() => console.log("About")}
-        >
-          <About />
-        </TrackVisbility>
-        <div className={"dotted"}></div>
-        <TrackVisbility
-          onVisible={() => console.log("Projects")}
-        >
-          <Projects />
-        </TrackVisbility>
-      </div>
-    );
-  }
+	renderComponentHandler = () => {
+		return (
+			animateList.map((comp, key) => {
+				return (
+					<div style={styles.block} key={key}>
+						<Fade top>
+							<TrackVisbility
+								onVisible={() => console.log("component", comp)}
+							>
+								{comp}
+							</TrackVisbility>
+						</Fade>
+					</div>
+				)
+			})
+		)
+	};
+
+	render() {
+		return (
+			<div>
+				{this.renderComponentHandler()}
+			</div>
+		);
+	}
 }
+
+const styles = {
+	block: {
+		width: "100%",
+		height: "100vh",
+		backgroundColor: "pink"
+	}
+};
