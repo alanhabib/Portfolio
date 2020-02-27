@@ -5,24 +5,12 @@ import nightTrafic from "../../../public/images/night_trafic.jpg"
 import Card from "../Lib/Card/card";
 
 class Home extends Component {
-	constructor(props) {
-		super(props);
-		this.wrapperRef = React.createRef();
-	}
-
-	state = {
-		toggle: false
-	};
-
-	toggleHandler() {
-		const wrapper = this.wrapperRef.current;
-		wrapper.classList.toggle("is-nav-open")
-	};
 
 	render() {
 		return (
 			<div style={styles.container}>
-				<Card/>
+				<Card text={"something"} longText={"something else"}/>
+				<Card text={"new text sent in"} longText={"anything else that is text"}/>
 			</div>
 		);
 	}
