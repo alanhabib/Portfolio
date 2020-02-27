@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"id":"images/favicon.png","dependencies":[{"name":"/Users/Alan/Desktop/Portfolio/.babelrc","includedInParent":true,"mtime":1582182021101},{"name":"/Users/Alan/Desktop/Portfolio/package.json","includedInParent":true,"mtime":1582785976948}],"generated":{"js":"module.exports = \"/3757752e42b77035569657f48003f84c.png\";"},"sourceMaps":null,"error":null,"hash":"c576797e1877e6abac4ecddd6f0f7848","cacheData":{"env":{}}}
+=======
+{"id":"images/favicon.png","dependencies":[{"name":"/Users/Alan/Desktop/Portfolio/.babelrc","includedInParent":true,"mtime":1582182021101},{"name":"/Users/Alan/Desktop/Portfolio/package.json","includedInParent":true,"mtime":1582622097994}],"generated":{"js":"module.exports = \"/3757752e42b77035569657f48003f84c.png\";"},"sourceMaps":null,"error":null,"hash":"c576797e1877e6abac4ecddd6f0f7848","cacheData":{"env":{}}}
+>>>>>>> master
