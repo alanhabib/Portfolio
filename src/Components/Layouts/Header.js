@@ -113,11 +113,19 @@ const Header = ({props}) => {
 							</NavLink>
 						</div>
 					</Toolbar>
+					<button className={styles.navToggle} aria-label={"toggle navigation"}>
+						<span className={styles.hamburger}></span>
+					</button>
 				</AppBar>
 			</HideOnScroll>
 			<Toolbar/>
 		</React.Fragment>
 	);
+};
+
+const styles = {
+	navToggle: {},
+	hamburger: {}
 };
 
 export default Header;
