@@ -37,9 +37,9 @@ export default class LandingPage extends Component {
 
 	render() {
 		return (
-			<div>
+			<Fragment>
 				{this.renderComponentHandler()}
-			</div>
+			</Fragment>
 		);
 	}
 }
@@ -47,7 +47,6 @@ export default class LandingPage extends Component {
 const styles = {
 	block: {
 		width: "100%",
-		height: "100vh",
-		backgroundColor: "pink"
+		height: "100%"
 	}
 };
