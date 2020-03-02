@@ -21,7 +21,7 @@ export default class LandingPage extends Component {
 		return (
 			animateList.map((comp, key) => {
 				return (
-					<div style={styles.block} key={key}>
+					<Fragment key={key}>
 						<Fade top>
 							<TrackVisbility
 								onVisible={() => console.log("component", comp)}
@@ -29,7 +29,7 @@ export default class LandingPage extends Component {
 								{comp}
 							</TrackVisbility>
 						</Fade>
-					</div>
+					</Fragment>
 				)
 			})
 		)
@@ -44,9 +44,9 @@ export default class LandingPage extends Component {
 	}
 }
 
-const styles = {
-	block: {
-		width: "100%",
-		height: "100%"
-	}
-};
+// const styles = {
+// 	block: {
+// 		width: "100%",
+// 		height: "100%"
+// 	}
+// };
