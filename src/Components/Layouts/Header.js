@@ -11,6 +11,7 @@ import {
 	useScrollTrigger
 } from "@material-ui/core";
 import classNames from "classnames";
+import "./Index.css";
 
 // function HideOnScroll(props) {
 // 	const {children} = props;
@@ -57,13 +58,15 @@ class Header extends Component {
 						onClick={() => this.toggleHamburgerHandler()}
 
 						className={classNames("nav-toggle", this.state.hamburgerMenu
-							? ("nav-open")
+							? "nav-open"
 							: "nav-toggle"
 						)}
 						aria-label="toggle navigation">
 						<span className="hamburger"></span>
 					</button>
-					<nav className="nav">
+					<nav className={classNames("nav", this.state.hamburgerMenu
+						? "nav-open"
+						: "nav")}>
 						<ul className="nav__list">
 							<li className="nav__item"><a href="#" className="nav__link">Home</a></li>
 							<li className="nav__item"><a href="#" className="nav__link">My Services</a></li>
