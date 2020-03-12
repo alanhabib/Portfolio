@@ -5,11 +5,13 @@ import About from "./About/About";
 import Projects from "./Projects";
 import TrackVisbility from "./TrackVisbility";
 import Fade from "react-reveal/Fade";
+import Project from "./Project";
 
 const animateList = [
 	<Home/>,
 	<About/>,
-	<Projects/>
+	<Projects/>,
+	<Project/>
 ];
 
 export default class LandingPage extends Component {
