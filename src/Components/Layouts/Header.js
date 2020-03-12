@@ -1,6 +1,7 @@
-import React from "react";
+import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
 import PropTypes from "prop-types";
+import oldCar from "../../../public/images/old_car.jpg"
 import {
 	AppBar,
 	Toolbar,
@@ -9,123 +10,75 @@ import {
 	Slide,
 	useScrollTrigger
 } from "@material-ui/core";
+import classNames from "classnames";
+import "./Index.css";
 
-function HideOnScroll(props) {
-	const {children} = props;
-	const trigger = useScrollTrigger();
+// function HideOnScroll(props) {
+// 	const {children} = props;
+// 	const trigger = useScrollTrigger();
+//
+// 	return (
+// 		<Slide
+// 			timeout={{appear: false, enter: 800, exit: 800}}
+// 			appear={false}
+// 			direction="down"
+// 			in={!trigger}
+// 		>
+// 			{children}
+// 		</Slide>
+// 	);
+// }
 
-	return (
-		<Slide
-			timeout={{appear: false, enter: 800, exit: 800}}
-			appear={false}
-			direction="down"
-			in={!trigger}
-		>
-			{children}
-		</Slide>
-	);
-}
+// HideOnScroll.propTypes = {
+// 	children: PropTypes.element.isRequired,
+// 	window: PropTypes.func
+// };
 
-HideOnScroll.propTypes = {
-	children: PropTypes.element.isRequired,
-	window: PropTypes.func
-};
+class Header extends Component {
+	state = {
+		hamburgerMenu: false
+	};
 
-const Header = ({props}) => {
-	return (
-		<React.Fragment>
-			<CssBaseline/>
-			<HideOnScroll {...props}>
-				<AppBar
-					style={{
-						backgroundColor: "green",
-						boxShadow: "none"
-					}}
-				>
-					<Toolbar
-						style={{
-							display: "flex",
-							justifyContent: "space-around"
-						}}
-					><Typography
-						style={{
-							color: "#fcfff9"
-						}}
-						variant="h2"
-					>
-						RCD <span style={{color: "red"}}>Bil</span>
-					</Typography>
-						<div
-							style={{
-								display: "flex",
-								justifyContent: "center",
-								fontSize: 18
-								// width: "50%"
-							}}
-						>
-							<NavLink
-								style={{
-									color: "#fcfff9",
-									paddingRight: 8,
-									paddingLeft: 8,
-									textTransform: "uppercase"
-								}}
-								to={"/home"}
-								activeClassName={"is-active"}
-							>
-								Hem
-							</NavLink>
-							<NavLink
-								style={{
-									color: "#fcfff9",
-									paddingRight: 8,
-									paddingLeft: 8,
-									textTransform: "uppercase"
-								}}
-								to={"/about"}
-								activeClassName={"is-active"}
-							>
-								köpa bil
-							</NavLink>
-							<NavLink
-								style={{
-									color: "#fcfff9",
-									paddingRight: 8,
-									paddingLeft: 8,
-									textTransform: "uppercase"
-								}}
-								to={"/projects"}
-								activeClassName={"is-active"}
-							>
-								sälj bil
-							</NavLink>
-							<NavLink
-								style={{
-									color: "#fcfff9",
-									paddingRight: 8,
-									paddingLeft: 8,
-									textTransform: "uppercase"
-								}}
-								to={"/contact"}
-								activeClassName={"is-active"}
-							>
-								kontakt
-							</NavLink>
-						</div>
-					</Toolbar>
-					<button className={styles.navToggle} aria-label={"toggle navigation"}>
-						<span className={styles.hamburger}></span>
+	toggleHamburgerHandler = () => {
+		this.setState({
+			hamburgerMenu: !this.state.hamburgerMenu
+		}, () => {
+			console.log("## state", this.state);
+		})
+	};
+
+	render() {
+		return (
+			<React.Fragment>
+				<header>
+					<div className="logo">
+						<img src={oldCar} alt=""/>
+					</div>
+					<button
+						onClick={() => this.toggleHamburgerHandler()}
+
+						className={classNames("nav-toggle", this.state.hamburgerMenu
+							? "nav-open"
+							: "nav-toggle"
+						)}
+						aria-label="toggle navigation">
+						<span className="hamburger"></span>
 					</button>
-				</AppBar>
-			</HideOnScroll>
-			<Toolbar/>
-		</React.Fragment>
-	);
-};
-
-const styles = {
-	navToggle: {},
-	hamburger: {}
+					<nav className={classNames("nav", this.state.hamburgerMenu
+						? "nav-open"
+						: "nav")}>
+						<ul className="nav__list">
+							<li className="nav__item"><a href="#" className="nav__link">Home</a></li>
+							<li className="nav__item"><a href="#" className="nav__link">My Services</a></li>
+							<li className="nav__item"><a href="#" className="nav__link">About me</a></li>
+							<li className="nav__item"><a href="#" className="nav__link">My Work</a></li>
+						</ul>
+					</nav>
+				</header>
+			</React.Fragment>
+		)
+			;
+	}
 };
 
 export default Header;

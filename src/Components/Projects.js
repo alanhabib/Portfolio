@@ -1,46 +1,56 @@
 import React from "react";
 import randomWoman from "../../public/images/random_woman.jpg"
 import oldCar from "../../public/images/old_car.jpg"
-import mercBenzRow from "../../public/images/merc_benz_row.jpg"
+import mercedes from "../../public/images/merc_benz_row.jpg"
 import oldBus from "../../public/images/old_bus.jpg"
+import styles from "../styles/styles.scss";
 
 const Projects = () => {
 	return (
-		<section className={styles.myWork}>
-			<h2 className={styles.sectionTitle}>
-				my work
-			</h2>
-			<p className={styles.sectionSubtitle}></p>
-			<div className={styles.portfolio}>
-				<a href={"#"} className={styles.portfolioItem}>
-					<img src={randomWoman} alt={"random-woman"} className={styles.portfolioImg}/>
+		<section className="my-work" id="work">
+			<h2 className="section__title">My work</h2>
+			<p className="section__subtitle"></p>
+
+			<div className="portfolio">
+
+				<a href="#" className="portfolio__item">
+					<img src={randomWoman} alt="" className="portfolio__img"/>
 				</a>
-				<a href={"#"} className={styles.portfolioItem}>
-					<img src={oldCar} alt={"random-woman"} className={styles.portfolioImg}/>
+
+
+				<a href="#" className="portfolio__item">
+					<img src={oldCar} alt="" className="portfolio__img"/>
 				</a>
-				<a href={"#"} className={styles.portfolioItem}>
-					<img src={mercBenzRow} alt={"random-woman"} className={styles.portfolioImg}/>
+
+
+				<a href="#" className="portfolio__item">
+					<img src={mercedes} alt="" className="portfolio__img"/>
 				</a>
-				<a href={"#"} className={styles.portfolioItem}>
-					<img src={oldBus} alt={"random-woman"} className={styles.portfolioImg}/>
+
+
+				<a href="#" className="portfolio__item">
+					<img src={oldBus} alt="" className="portfolio__img"/>
 				</a>
-				<a href={"#"} className={styles.portfolioItem}>
-					<img src={randomWoman} alt={"random-woman"} className={styles.portfolioImg}/>
+				<a href="#" className="portfolio__item">
+					<img src={randomWoman} alt="" className="portfolio__img"/>
+				</a>
+				<a href="#" className="portfolio__item">
+					<img src={oldCar} alt="" className="portfolio__img"/>
 				</a>
 			</div>
 		</section>
 	);
 };
 
-const styles = {
-	container: {
-		fontSize: 20,
-		padding: 20,
-		color: "#fff",
-		background: "linear-gradient(to right, #141e30, #243b55)",
-		width: "100%",
-		height: "100vh"
-	}
-};
+// const styles = {
+// 	container: {
+// 		fontSize: 20,
+// 		padding: 20,
+// 		color: "#fff",
+// 		background: "linear-gradient(to right, #141e30, #243b55)",
+// 		width: "100%",
+// 		height: "100vh"
+// 	}
+// };
 
 export default Projects;

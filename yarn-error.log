@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add Projects.scss
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add header.scss
 
 PATH: 
-  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/Alan/Desktop/Portfolio/node_modules/.bin:/Users/Alan/Documents/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Alan/Library/Android/sdk/emulator:/Users/Alan/Library/Android/sdk/tools:/Users/Alan/Library/Android/sdk/tools/bin:/Users/Alan/Library/Android/sdk/platform-tools
+  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/Alan/Desktop/Portfolio/node_modules/.bin:/Users/Alan/Documents/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Alan/Desktop/Portfolio/node_modules/.bin:/Users/Alan/Library/Android/sdk/emulator:/Users/Alan/Library/Android/sdk/tools:/Users/Alan/Library/Android/sdk/tools/bin:/Users/Alan/Library/Android/sdk/platform-tools
 
 Yarn version: 
   1.17.3
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.npmjs.org/Projects.scss: Not found
+  Error: https://registry.npmjs.org/header.scss: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:66830:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:140464:22)
       at Request.emit (events.js:223:5)
