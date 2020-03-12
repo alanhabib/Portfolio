@@ -40,7 +40,8 @@
   "scripts": {
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html --out-dir prod",
-    "heroku-postbuild": "npm run build"
+    "start": "node, server/server.js",
+    "heroku-postbuild": "npm run build:prod"
   },
   "keywords": [],
   "author": "",
