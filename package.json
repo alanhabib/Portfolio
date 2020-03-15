@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "git init",
   "main": "app.js",
@@ -40,7 +40,7 @@
   "scripts": {
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html --out-dir prod",
-    "start": "node, server/server.js",
+    "start": "node server/server.js",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
