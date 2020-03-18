@@ -2,49 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Layouts/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/luffy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/me.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/merc_benz_row.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/night_trafic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/old_bus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/old_car.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/random_woman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/reco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About/About.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About/About.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/EditExpensePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layouts/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layouts/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layouts/Index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Card/card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Card/card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/HamburgerButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NotFoundPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Project.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TrackVisbility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routers/AppRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +46,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/Components/Lib/Card" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -107,7 +75,7 @@
       <workItem from="1583766579297" duration="13091000" />
       <workItem from="1584273305974" duration="14883000" />
       <workItem from="1584446597415" duration="100000" />
-      <workItem from="1584472594708" duration="4117000" />
+      <workItem from="1584472594708" duration="6714000" />
     </task>
     <servers />
   </component>
@@ -131,9 +99,10 @@
       <screen x="-3008" y="-869" width="3008" height="1669" />
     </state>
     <state width="1471" height="473" key="GridCell.Tab.0.right/0.23.1280.777/-3008.-869.3008.1669@-3008.-869.3008.1669" timestamp="1583955167068" />
-    <state x="1536" y="472" width="703" height="518" key="find.popup" timestamp="1583086599831">
+    <state x="1536" y="472" width="703" height="518" key="find.popup" timestamp="1584512559381">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
+    <state x="1536" y="472" width="703" height="518" key="find.popup/-2560.23.2560.1417/2560.563.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1584512559381" />
     <state x="1536" y="472" width="703" height="518" key="find.popup/2560.563.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1583086599831" />
   </component>
   <component name="masterDetails">

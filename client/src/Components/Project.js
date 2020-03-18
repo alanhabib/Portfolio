@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import PropTypes from 'prop-types';
-import oldCar from "../../public/images/old_car.jpg"
-import oldBus from "../../public/images/old_bus.jpg"
+import oldCar from "../../build/images/old_car.jpg"
+import oldBus from "../../build/images/old_bus.jpg"
 class Project extends Component {
 	render() {
 		return (

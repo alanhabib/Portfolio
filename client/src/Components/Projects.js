@@ -1,8 +1,8 @@
 import React from "react";
-import randomWoman from "../../public/images/random_woman.jpg"
-import oldCar from "../../public/images/old_car.jpg"
-import mercedes from "../../public/images/merc_benz_row.jpg"
-import oldBus from "../../public/images/old_bus.jpg"
+import randomWoman from "../../build/images/random_woman.jpg"
+import oldCar from "../../build/images/old_car.jpg"
+import mercedes from "../../build/images/merc_benz_row.jpg"
+import oldBus from "../../build/images/old_bus.jpg"
 import styles from "../styles/styles.scss";
 
 const Projects = () => {

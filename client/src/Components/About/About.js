@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from "react";
 import PropTypes from "prop-types";
-import oldCar from "../../../public/images/old_car.jpg"
+import oldCar from "../../../build/images/old_car.jpg"
 import styles from "../../styles/styles.scss";
 // import styles from "./About.scss";
 import {
