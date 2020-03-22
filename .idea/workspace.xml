@@ -3,7 +3,48 @@
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/luffy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/luffy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/me.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/me.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/merc_benz_row.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/merc_benz_row.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/night_trafic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/night_trafic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/old_bus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/old_bus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/old_car.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/old_car.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/random_woman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/random_woman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/images/reco.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/reco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/About/About.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/EditExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/EditExpensePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Layouts/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layouts/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layouts/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Layouts/Index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layouts/Index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Lib/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lib/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Lib/Card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lib/Card/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Lib/Card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lib/Card/card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Lib/HamburgerButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lib/HamburgerButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/NotFoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NotFoundPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/TrackVisbility.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TrackVisbility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routers/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +78,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public" />
