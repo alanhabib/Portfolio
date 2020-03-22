@@ -14,7 +14,7 @@ import Projects from "../Components/Projects";
 import About from "../Components/About/About";
 import LandingPage from "../Components/LandingPage";
 
-const AppRouter = () => {
+const Routes = () => {
 	return (
 		<BrowserRouter>
 			<div>
@@ -37,4 +37,4 @@ const AppRouter = () => {
 	);
 };
 
-export default AppRouter;
+export default Routes;
