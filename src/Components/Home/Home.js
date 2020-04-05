@@ -6,18 +6,26 @@ import Card from "../Lib/Card/card";
 import CustomizedButtons from "../Lib/Button";
 
 import styles from "../../styles/styles.scss";
+import About from "../About/About";
 
 class Home extends Component {
 
 	render() {
 		return (
-			<section className="intro" id="home">
-				<h1 className="section__title section__title--intro">
-					Hej, Mitt namn är <strong>SUPERMAN</strong>
-				</h1>
-				<p className="section__subtitle section__subtitle--intro">Relationskonsult</p>
-				<img src={nightTrafic} alt="a picture of Jane Smith smiling" className="intro__img"/>
-			</section>
+			<div style={{
+				marginTop: 60
+			}}>
+				<section
+					className="intro"
+					id="home">
+					<h1 className="section__title section__title--intro">
+						Hej, Mitt namn är <strong>SUPERMAN</strong>
+					</h1>
+					<p className="section__subtitle section__subtitle--intro">Relationskonsult</p>
+					<img src={nightTrafic} alt="a picture of Jane Smith smiling" className="intro__img"/>
+				</section>
+				<About/>
+			</div>
 		);
 	}
 }

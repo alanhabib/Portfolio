@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require("webpack");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -7,8 +8,8 @@ module.exports = {
 		historyApiFallback: true
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist'),
-		filename: 'index_bundle.js',
+		path: path.resolve(__dirname, 'build'),
+		filename: 'index.bundle.js',
 		publicPath: "/"
 	},
 	watchOptions: {
@@ -38,14 +39,11 @@ module.exports = {
 				],
 			},
 			{
-				test: /\.s[ac]ss$/i,
+				test: /\.scss$/,
 				use: [
-					// Creates `style` nodes from JS strings
-					'style-loader',
-					// Translates CSS into CommonJS
-					'css-loader',
-					// Compiles Sass to CSS
-					'sass-loader',
+					'style-loader', // creates style nodes from JS strings
+					'css-loader', // translates CSS into CommonJS
+					'sass-loader' // compiles Sass to CSS, using Node Sass by default
 				],
 			},
 		]
