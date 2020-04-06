@@ -16,25 +16,30 @@ import LandingPage from "../Components/LandingPage";
 
 const Routes = () => {
 	return (
-		<BrowserRouter>
-			<div>
-				<Header/>
-				<Switch>
-					<Route exact path={"/"} component={LandingPage}/>
-					<Route path={"/home"} component={Home}/>
-					<Route path={"/about"} component={About}/>
-					<Route path={"/projects"} component={Projects}/>
-					<Route
-						path={"/edit/:id"}
-						component={EditExpensePage}
-					/>
-					<Route path={"/contact"} component={Contact}/>
-					<Route component={NotFoundPage}/>
-				</Switch>
-				<Footer/>
-			</div>
-		</BrowserRouter>
-	);
+		<div>
+			<LandingPage/>
+		</div>
+	)
+	// return (
+	// 	<BrowserRouter>
+	// 		<div>
+	// 			{/*<Header/>*/}
+	// 			<Switch>
+	// 				<Route exact path={"/"} component={LandingPage}/>
+	// 				<Route path={"/home"} component={Home}/>
+	// 				<Route path={"/about"} component={About}/>
+	// 				<Route path={"/projects"} component={Projects}/>
+	// 				<Route
+	// 					path={"/edit/:id"}
+	// 					component={EditExpensePage}
+	// 				/>
+	// 				<Route path={"/contact"} component={Contact}/>
+	// 				<Route component={NotFoundPage}/>
+	// 			</Switch>
+	// 			<Footer/>
+	// 		</div>
+	// 	</BrowserRouter>
+	// );
 };
 
 export default Routes;

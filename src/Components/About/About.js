@@ -69,13 +69,3 @@ export default class About extends Component {
 	}
 }
 
-// const styles = {
-// 	container: {
-// 		fontSize: 20,
-// 		padding: 20,
-// 		color: "#fff",
-// 		background: "linear-gradient(to right, #3c3b3f, #605c3c)",
-// 		height: "100vh",
-// 		width: "100%"
-// 	}
-// };
