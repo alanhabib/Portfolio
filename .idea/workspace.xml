@@ -3,9 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layouts/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layouts/Index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layouts/Index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/roles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +44,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +91,15 @@
       <workItem from="1586888518442" duration="15000" />
       <workItem from="1587282277955" duration="10313000" />
       <workItem from="1587318952661" duration="2795000" />
-      <workItem from="1587376116112" duration="24980000" />
+      <workItem from="1587376116112" duration="28388000" />
+      <workItem from="1587634505432" duration="554000" />
+      <workItem from="1587891643832" duration="6159000" />
+      <workItem from="1588233798457" duration="599000" />
+      <workItem from="1588318238054" duration="598000" />
+      <workItem from="1590480565138" duration="733000" />
+      <workItem from="1590918127164" duration="3777000" />
+      <workItem from="1591471249111" duration="1802000" />
+      <workItem from="1591520446177" duration="14627000" />
     </task>
     <servers />
   </component>
@@ -105,15 +123,20 @@
       <screen x="-3008" y="-869" width="3008" height="1669" />
     </state>
     <state width="1471" height="473" key="GridCell.Tab.0.right/0.23.1280.777/-3008.-869.3008.1669@-3008.-869.3008.1669" timestamp="1583955167068" />
-    <state x="572" y="408" width="703" height="518" key="find.popup" timestamp="1586173524673">
+    <state x="1417" y="370" key="SettingsEditor" timestamp="1587895372630">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1417" y="370" key="SettingsEditor/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1587895372630" />
+    <state x="572" y="408" width="703" height="518" key="find.popup" timestamp="1591541231549">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="572" y="408" width="703" height="518" key="find.popup/-2560.23.2560.1417/2560.563.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1586173524673" />
     <state x="1536" y="472" width="703" height="518" key="find.popup/2560.563.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1583086599831" />
-    <state x="1581" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1587488295144">
+    <state x="572" y="408" width="703" height="518" key="find.popup/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1591541231549" />
+    <state x="1581" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1591538913599">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1581" y="348" width="670" height="676" key="search.everywhere.popup/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1587488295144" />
+    <state x="1581" y="348" width="670" height="676" key="search.everywhere.popup/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1591538913599" />
   </component>
   <component name="masterDetails">
     <states>

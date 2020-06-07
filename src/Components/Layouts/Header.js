@@ -19,8 +19,8 @@ const useStyles = () => ({
 		flexDirection: "row",
 		alignItems: "center",
 		justifyContent: "space-between",
-		height: "10%",
-		backgroundColor: "rgba(30,34,114)"
+		height: "8%",
+		backgroundColor: "#fff"
 	}
 });
 
@@ -95,13 +95,14 @@ class Header extends Component {
 				width: "100%"
 			}}>
 				<div className="logo">
-					<a
-						href={"/"}
-						className="nav__link">
-						<img src={oldCar} alt=""/>
+					<a style={{color: "black"}}
+					   href={"/"}
+					   className="nav__link">
+						<span className="logo">{"Alan's Blogg"}</span>
 					</a>
 				</div>
 				<ul style={{
+					color: "black",
 					listStyle: "none",
 					display: "flex",
 					flexDirection: "row",
@@ -115,7 +116,7 @@ class Header extends Component {
 							activeClassName={{fontsize: "bold"}}
 							to={"/home"}>
 							<Typography variant="h6">
-								Köpa bil
+								About
 							</Typography>
 						</NavLink>
 					</li>
@@ -126,7 +127,7 @@ class Header extends Component {
 							to={"/about"}
 						>
 							<Typography variant="h6">
-								Sälja bil
+								Hire
 							</Typography>
 						</NavLink>
 					</li>
@@ -137,7 +138,7 @@ class Header extends Component {
 							to={"/projects"}
 						>
 							<Typography variant="h6">
-								Om oss
+								Blog
 							</Typography>
 						</NavLink>
 					</li>
@@ -148,7 +149,7 @@ class Header extends Component {
 							to={"/contact"}
 						>
 							<Typography variant="h6">
-								Kontakt
+								Contact
 							</Typography>
 						</NavLink>
 					</li>
@@ -228,7 +229,6 @@ class Header extends Component {
 
 	render() {
 		const {classes} = this.props;
-		console.log("state", this.state);
 		return (
 			<React.Fragment>
 				<CssBaseline/>
