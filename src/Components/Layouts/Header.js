@@ -19,7 +19,7 @@ const useStyles = () => ({
 		flexDirection: "row",
 		alignItems: "center",
 		justifyContent: "space-between",
-		height: "8%",
+		height: 70,
 		backgroundColor: "#fff"
 	}
 });
@@ -135,7 +135,7 @@ class Header extends Component {
 						<NavLink
 							className="nav__link"
 							activeClassName={{fontsize: "bold"}}
-							to={"/projects"}
+							to={"/blog"}
 						>
 							<Typography variant="h6">
 								Blog
@@ -206,9 +206,9 @@ class Header extends Component {
 								className="nav__link"
 								exact
 								activeClassName={{fontsize: "bold"}}
-								to={"/projects"}
+								to={"/blog"}
 								innerRef={this.refCallback}>
-								Projects
+								Blog
 							</NavLink>
 						</li>
 						<li className="nav__item">
