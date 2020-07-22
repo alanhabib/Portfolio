@@ -5,7 +5,7 @@ function BlogPostPage({match, location}) {
 	console.log("## match", match);
 	console.log("## LOCATION", location);
 	return (
-		<div style={{paddingTop: 100}}>
+		<div>
 			<Card
 				hoverable={true}
 				title={`${location.blogPost.title}`}

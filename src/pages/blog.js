@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import axios from "axios";
 import PlayerForm from "../Components/NewestBlogComp/playerForm";
 import BlogPostListPage from "../Components/NewestBlogComp/BlogPostListPage";
@@ -30,7 +30,7 @@ function Blog({match}) {
 
 	console.log("BLOGPOSTS", blogPosts);
 	return (
-		<div style={{paddingTop: 80}}>
+		<div style={{paddingTop: 65}}>
 			<BlogPostListPage
 				deletePost={deletePost}
 				blogPosts={blogPosts}
