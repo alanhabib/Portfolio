@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Containers/Contact/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Hamburger/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lib/Hamburger/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/BlogPostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NewestBlogComp/BlogPostListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/blogPostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NewestBlogComp/blogPostList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/blogPostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NewestBlogComp/blogPostPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NewestBlogComp/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/actions/create-migration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/actions/db-connect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/actions/run-migration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640621937_roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640675351_users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640694549_permissions.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640708824_role_permissions.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640737980_blog_categories.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640743273_blog_posts.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640762394_blog_post_comments.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640767864_blog_post_categories.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640772472_blog_post_likes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/migrations/1594640785538_seeds.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/database/mysql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/schemas/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/schemas/posts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/schemas/posts/mocks/featured.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/schemas/posts/mocks/trending.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/schemas/posts/posts-schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/About/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/About/Index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/About/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/About/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Contact/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Contact/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mockdata/MOCK_DATA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hire.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +149,8 @@
       <workItem from="1594708025127" duration="1641000" />
       <workItem from="1594722259651" duration="24156000" />
       <workItem from="1594972124508" duration="71117000" />
-      <workItem from="1595313035789" duration="33794000" />
+      <workItem from="1595313035789" duration="36230000" />
+      <workItem from="1595448744292" duration="2838000" />
     </task>
     <servers />
   </component>
@@ -139,6 +167,10 @@
     </state>
     <state x="-946" y="531" key="#com.intellij.fileTypes.FileTypeChooser/-2560.23.2560.1417/2560.663.1280.777/0.23.2560.1417@-2560.23.2560.1417" timestamp="1594632408999" />
     <state x="1614" y="531" key="#com.intellij.fileTypes.FileTypeChooser/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1594971286349" />
+    <state x="1658" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595451715932">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1658" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595451715932" />
     <state x="1417" y="370" key="SettingsEditor" timestamp="1587895372630">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -147,14 +179,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1578" y="353" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595411374005" />
-    <state x="1646" y="397" width="703" height="518" key="find.popup" timestamp="1595410645087">
+    <state x="1646" y="397" width="703" height="518" key="find.popup" timestamp="1595449461242">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="-914" y="397" width="703" height="518" key="find.popup/-2560.23.2560.1417/2560.663.1280.777/0.23.2560.1417@-2560.23.2560.1417" timestamp="1594626457501" />
     <state x="572" y="408" width="703" height="518" key="find.popup/-2560.23.2560.1417/2560.663.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1594910734614" />
     <state x="634" y="199" width="703" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1595175618152" />
     <state x="479" y="259" width="703" height="527" key="find.popup/2560.694.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1595063392396" />
-    <state x="1646" y="397" width="703" height="518" key="find.popup/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595410645087" />
+    <state x="1646" y="397" width="703" height="518" key="find.popup/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595449461242" />
     <state x="1581" y="330" width="670" height="687" key="search.everywhere.popup" timestamp="1595143709854">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

@@ -1,122 +1,26 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: 20px;
-    background-color: #fafafa;
-    width: 100%;
-}
+// ABOUT PAGE ***************************************************************************
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  color: var(--clr-dark);
+  background-color: var(--clr-lightGrey);
+  padding: 100px 18px 60px 18px;
+  max-width: 1000px;
+  margin: 0 auto;
 
-.box {
-    border-radius: 12px;
-    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
-    0 0 0 1px #e6ecf8;
-    color: #141c3a;
-    display: block;
-    height: 30vh;
-    width: 30vh;
-}
-
-.columns {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-
-.column {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 1;
-    flex-basis: 0;
-}
-
-///*  My services section  */
-//
-.my-services {
-    background-color: var(--clr-dark);
-    // background-image:url(../../../public/images/old_bus.jpg);
-    background-size: cover;
-    /* background-blend-mode: multiply; */
-    color: var(--clr-light);
-    text-align: center;
-}
-
-.section__title--services {
-    color: var(--clr-accent);
+  .aboutImage {
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
+    opacity 250ms linear;
+    max-height: 30rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: var(--radius);
     position: relative;
+  }
 }
 
-.section__title--services::after {
-    content: '';
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background: var(--clr-light);
-    opacity: 0.25;
-}
-
-.services {
-    margin-bottom: 4em;
-}
-
-.service {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-@media (min-width: 800px) {
-    .services {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service + .service {
-        margin-left: 2em;
-    }
-}
-
-
-.about-me {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.about-me__img {
-    box-shadow: var(--bs);
-}
-
-@media (min-width: 600px) {
-    .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: "title img" "subtitle img" "text img";
-        grid-column-gap: 2em;
-    }
-
-    .section__title--about {
-        grid-area: title;
-    }
-
-    .section__subtitle--about {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    }
-
-    .about-me__img {
-        grid-area: img;
-        position: relative;
-        z-index: 2;
-    }
-}
