@@ -1,0 +1,60 @@
+//    "build": "webpack --config webpack.prod.js",
+    //    "start": "webpack-dev-server --open",
+
+
+    // HOW TO MERGE DIFFERENT POPULAR BLOGPOSTS
+
+    // const featured = [
+    // 	{
+    // 		id: 1,
+    // 		date: moment().format("MMMM DD, YYYY"),
+    // 		categories: ["Tech culture"],
+    // 		slug: "fitness-mantra-to-live-fit-life",
+    // 		link: "#",
+    // 		image: "fitness-blog-post.jpg",
+    // 		text: "Midst first it, you're multiply divided. There don't, second his one given the he one third rule "
+    // 	},
+    // 	{
+    // 		id: 2,
+    // 		date: moment().format("MMMM DD, YYYY"),
+    // 		categories: ["React", "JavaScript"],
+    // 		slug: "fitness-mantra-to-live-fit-life",
+    // 		image: "memories-from.jpg",
+    // 		link: "#",
+    // 		text: "Midst first it, you're multiply divided. There don't, second his one given the he one third rule "
+    // 	}
+    // ];
+    //
+    // const trendingConfig = {
+    // 	1: {
+    // 		gridArea: "1 / 2 / 3 / 3"
+    // 	}
+    // };
+    //
+    // const featuredConfig = {
+    // 	0: {
+    // 		gridArea: "1/1/2/3",
+    // 		height: "300px"
+    // 	},
+    // 	1: {
+    // 		height: "300px"
+    // 	},
+    // 	3: {
+    // 		height: "630px",
+    // 		marginLeft: "30px",
+    // 		width: "630px"
+    // 	}
+    // };
+    //
+    // const mergeStyles = (posts, config) => {
+    // 	posts.forEach((post, index) => {
+    // 		post.style = config[index];
+    // 	});
+    // };
+    //
+    // const recentPosts = [...data, ...featured, ...data];
+    //
+    // mergeStyles(data, trendingConfig);
+    // mergeStyles(featured, featuredConfig);
+    //
+    // const lastFeatured = featured.pop();

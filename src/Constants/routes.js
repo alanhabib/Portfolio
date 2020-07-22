@@ -1,39 +1,42 @@
 import React from "react";
 import {
-	BrowserRouter,
+	BrowserRouter as Router,
 	Switch,
-	Route
+	Route,
+	Redirect
 } from "react-router-dom";
-import Header from "../Components/Layouts/Header";
-import Home from "../Components/Home/Home";
-import Blog from "../Components/Blog";
-import Contact from "../Components/Contact";
-import NotFoundPage from "../Components/NotFoundPage";
-import Footer from "../Components/Layouts/Footer";
-import Projects from "../Components/Projects";
-import About from "../Components/About/About";
-import LandingPage from "../Components/LandingPage";
+import Navbar from "../Components/Navbar";
+import PageRenderer from "../PageRender";
+import Blog from "../pages/blog";
+import BlogPostPage from "../Components/NewestBlogComp/blogPostPage";
+import Home from "../pages/home";
+import Hire from "../pages/hire"
+import NotFoundPage from "../pages/notFoundPage";
+import About from "../pages/about";
 
+const user = {
+	firstName: "Alan",
+	lastName: "Blogger"
+};
 const Routes = () => {
 	return (
-		<BrowserRouter>
-			<div>
-				<Header/>
+		<Router>
+			<div className={"app"}>
+				<Navbar user={user}/>
 				<Switch>
-					<Route exact path={"/"} component={LandingPage}/>
-					<Route path={"/home"} component={Home}/>
-					<Route path={"/about"} component={About}/>
+					<Route exact path={"/"} component={Home}/>
+					<Route exact path={"/blog"} component={Blog}/>
 					<Route
-						path={"/blog"}
-						component={Blog}
+						path={"/blog/:id"}
+						component={BlogPostPage}
 					/>
-					<Route path={"/projects"} component={Projects}/>
-					<Route path={"/contact"} component={Contact}/>
+					<Route path={"/about"} component={About}/>
+					<Route path={"/hire"} component={Hire}/>
 					<Route component={NotFoundPage}/>
 				</Switch>
-				<Footer/>
+				{/*<Footer/>*/}
 			</div>
-		</BrowserRouter>
+		</Router>
 	);
 };
 

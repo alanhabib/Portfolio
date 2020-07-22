@@ -1,8 +1,8 @@
 import React, {Fragment} from 'react';
-import Home from "./Home/Home";
-import About from "./About/About";
+import Home from "../Containers/Home";
+import About from "../Containers/About";
 import Projects from "./Projects";
-import Blog from "./Blog"
+import Blog from "../Containers/Blog"
 import "./LandingPage.scss";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowDown} from "@fortawesome/free-solid-svg-icons";
