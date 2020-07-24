@@ -1,7 +1,5 @@
 import React, {Fragment} from 'react';
-import Home from "../Containers/Home";
 import About from "../Containers/About";
-import Projects from "./Projects";
 import Blog from "../Containers/Blog"
 import "./LandingPage.scss";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -18,11 +16,6 @@ function LandingPage(props) {
 			id: 'blogComp',
 			home: <Blog/>,
 			headline: "Blog"
-		},
-		{
-			id: 'projectsComp',
-			home: <Projects/>,
-			headline: "Projects"
 		},
 	];
 

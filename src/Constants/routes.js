@@ -22,7 +22,7 @@ const Routes = () => {
 	return (
 		<Router>
 			<div className={"app"}>
-				<Navbar user={user}/>
+				{/*<Navbar user={user}/>*/}
 				<Switch>
 					<Route exact path={"/"} component={Home}/>
 					<Route exact path={"/blog"} component={Blog}/>

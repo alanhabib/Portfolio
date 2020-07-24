@@ -49,7 +49,6 @@ function Navbar({user}) {
 							onClick={() => setMenuActive(false)}
 							key={link.id}
 							className="nav__link"
-							activeStyle={{fontWeight: "bold"}}
 							to={link.path}>
 							{link.title}
 						</NavLink>

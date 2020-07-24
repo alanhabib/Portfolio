@@ -20,15 +20,12 @@ function Blog({match}) {
 
 	const deletePost = (id) => {
 		axios.delete(`http://localhost:4000/blogger/${id}`)
-			.then(res => {
-				console.log("RES DELETE", res);
-				console.log("RES DATA DELETE", res.data);
+			.then(() => {
 				const blogPosts = blogPosts.filter(post => post._id !== id);
 				setBlogPosts(blogPosts)
 			})
 	};
 
-	console.log("BLOGPOSTS", blogPosts);
 	return (
 		<div style={{paddingTop: 65}}>
 			<BlogPostListPage

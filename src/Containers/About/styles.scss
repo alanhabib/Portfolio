@@ -13,6 +13,16 @@
   max-width: 1000px;
   margin: 0 auto;
 
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Didot, sans-serif;
+  }
+
+  span {
+    color: var(--clr-indigo);
+  }
+
   .aboutImage {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
