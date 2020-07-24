@@ -3,29 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BlogPost/Index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BlogPost/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Hamburger/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lib/Hamburger/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Logo/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Logo/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Project.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/oldHeader/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/oldHeader/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/oldHeader/Index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/About/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/About/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/About/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/About/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/Home/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Home/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text" beforeDir="false" afterPath="$PROJECT_DIR$/text" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +120,7 @@
       <workItem from="1595313035789" duration="36230000" />
       <workItem from="1595448744292" duration="4121000" />
       <workItem from="1595483428356" duration="8642000" />
-      <workItem from="1595510679098" duration="31701000" />
+      <workItem from="1595510679098" duration="32373000" />
     </task>
     <servers />
   </component>

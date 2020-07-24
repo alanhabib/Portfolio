@@ -1,7 +1,8 @@
 .mainContainer {
   section:nth-of-type(even) {
     background-color: var(--secondaryColor);
-    border: 1px solid var(--borderColor);
+    border-right: 1px solid var(--borderColor);
+    border-left: 1px solid var(--borderColor);
     overflow: auto;
     padding: 0 16px;
   }
@@ -379,7 +380,7 @@
 @media screen and (max-width: 900px) {
 
   .main-container {
-    padding: 0;
+    //padding: 0;
   }
   .intro-wrapper {
     grid-template-columns: 1fr;
@@ -397,9 +398,6 @@
     padding: 0;
     z-index: 100;
     background-color: var(--clr-lightGrey);
-    //background-image: linear-gradient(var(--clr-lightGrey), var(--clr-grey));
-    //border-bottom-left-radius: 50% 20%;
-    //border-bottom-right-radius: 50% 20%;
     margin: 0 auto !important;
 
     .navbarMenuList, .navbarMenuListItem {
