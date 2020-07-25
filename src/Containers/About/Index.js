@@ -1,7 +1,30 @@
-import React from "react";
+import React, {useState} from "react";
 import "./styles.scss";
-
+import {NavLink} from "react-router-dom";
+import Hamburger from "../../Components/Lib/Hamburger";
+import image from "../../../build/images/thumb-card5.png";
+const navLinks = [
+	{
+		title: "Home",
+		path: "/",
+		id: 1
+	}, {
+		title: "Blog",
+		path: "/blog",
+		id: 2
+	}, {
+		title: "About",
+		path: "/about",
+		id: 3
+	}, {
+		title: "Hire",
+		path: "/hire",
+		id: 4
+	},
+];
 const About = () => {
+	const [menuActive, setMenuActive] = useState(false);
+
 	return (
 		<section className="aboutContainer">
 			<h1>{"I Build Websites & Applications"}</h1>

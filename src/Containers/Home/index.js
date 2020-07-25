@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from 'react';
+import React, {Fragment, useState, useEffect, useRef} from 'react';
 import './styles.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFacebook, faTwitterSquare, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
@@ -7,6 +7,7 @@ import image from "../../../build/images/thumb-card5.png"
 import anotherOne from "../../../build/images/cestovat-chladny-dno-jednoduchost-2868847.jpg"
 import {NavLink} from "react-router-dom";
 import Hamburger from "../../Components/Lib/Hamburger";
+import {useLocation} from "react-router-dom";
 
 const style = {
 	cursor: "pointer",
@@ -32,26 +33,29 @@ const thirdTitle = "Blog";
 
 const navLinks = [
 	{
-		title: "Home",
-		path: "/",
-		id: 1
+		title: "Hire",
+		path: "/hire",
+		id: 4
 	}, {
 		title: "Blog",
 		path: "/blog",
 		id: 2
 	}, {
-		title: "About",
-		path: "/about",
+		title: "Projects",
+		path: "/projects",
 		id: 3
 	}, {
-		title: "Hire",
-		path: "/hire",
-		id: 4
+		title: "Home",
+		path: "/",
+		id: 1
 	},
 ];
 
-const Home = () => {
+function Home() {
 	const [menuActive, setMenuActive] = useState(false);
+	// useEffect(() => {
+	// 	window.scrollTo(0, document.body.scrollHeight);
+	// }, ["/"]);
 
 	return (
 		<main className={"mainContainer"}>
