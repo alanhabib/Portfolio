@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import Header from "../Components/Header";
 import Contact from "../Containers/Contact";
 
 function Hire() {
 	return (
-		<Contact/>
+		<Fragment>
+			<Header title={"Hire me because?"}/>
+			<Contact/>
+		</Fragment>
 	);
 }
 

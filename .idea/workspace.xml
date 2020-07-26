@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/About/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/About/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Home/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hire.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
