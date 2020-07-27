@@ -1,7 +1,9 @@
-import React, {useState, useEffect} from "react";
+import React, {Fragment, useState, useEffect} from "react";
 import axios from "axios";
 import PlayerForm from "../Components/NewestBlogComp/playerForm";
 import BlogPostListPage from "../Components/NewestBlogComp/BlogPostListPage";
+import Form from "../Components/Form";
+import Header from "../Components/Header";
 
 function Blog({match}) {
 	const id = match.params.id;
@@ -27,13 +29,20 @@ function Blog({match}) {
 	};
 
 	return (
-		<div style={{paddingTop: 65}}>
-			<BlogPostListPage
-				deletePost={deletePost}
-				blogPosts={blogPosts}
+		<Fragment>
+			<Header
+				title={"my Blog..."}
+				rightContent={<BlogPostListPage
+					deletePost={deletePost}
+					blogPosts={blogPosts}
+				/>}
+				leftColumnTitle={"Read, learn & blog about it!"}
+				lefttColumnText={
+					"This is a blog about my everyday as a developer. Read, like or maybe even comment!"
+				}
 			/>
 			<PlayerForm/>
-		</div>
+		</Fragment>
 	)
 }
 

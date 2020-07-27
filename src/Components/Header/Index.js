@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import "./styles.scss"
 import {NavLink} from "react-router-dom";
 import Hamburger from "../Lib/Hamburger";
-import image from "../../../build/images/thumb-card5.png";
 
 
 const navLinks = [
@@ -61,6 +60,23 @@ function header(props) {
 							menuActive={menuActive}
 							onClick={() => setMenuActive(!menuActive)}
 						/>
+					</div>
+					<div className="left-column">
+						<div className="preview-shadow">
+							<div className="preview">
+								<div id="corner-tl" className="corner"/>
+								<div id="corner-tr" className="corner"/>
+								<h3>{props.leftColumnTitle}</h3>
+								<p>
+									{props.lefttColumnText}
+								</p>
+								<div id="corner-br" className="corner"/>
+								<div id="corner-bl" className="corner"/>
+							</div>
+						</div>
+					</div>
+					<div className="right-column">
+						{props.rightContent}
 					</div>
 				</div>
 			</div>

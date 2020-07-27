@@ -1,13 +1,18 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import Header from "../Components/Header";
-import Contact from "../Containers/Contact";
+import Form from "../Components/Form";
 
 function Hire() {
 	return (
-		<Fragment>
-			<Header title={"Hire me because?"}/>
-			<Contact/>
-		</Fragment>
+		<Header
+			title={"Hire me because?"}
+			rightContent={<Form/>}
+			leftColumnTitle={"Get in touch!"}
+			lefttColumnText={
+				"If you are impressed with the content on this page and" +
+				" my projects then feel free to contact me!"
+			}
+		/>
 	);
 }
 

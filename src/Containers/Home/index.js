@@ -7,6 +7,7 @@ import image from "../../../build/images/thumb-card5.png"
 import anotherOne from "../../../build/images/cestovat-chladny-dno-jednoduchost-2868847.jpg"
 import {NavLink} from "react-router-dom";
 import Hamburger from "../../Components/Lib/Hamburger";
+import Form from "../../Components/Form"
 import {useLocation} from "react-router-dom";
 
 const style = {
@@ -226,28 +227,7 @@ function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="s2">
-				<div className="main-container">
-					<a href="#"/>
-					<h3>Get In Touch</h3>
-
-					<form id="contact-form">
-						<label>Name</label>
-						<input className="input-field" type="text" name="name"/>
-
-						<label>Subject</label>
-						<input className="input-field" type="text" name="subject"/>
-
-						<label>Email</label>
-						<input className="input-field" type="text" name="email"/>
-
-						<label>Message</label>
-						<textarea className="input-field" name="message"/>
-
-						<input id="submit-btn" type="submit" value="Send"/>
-					</form>
-				</div>
-			</section>
+			<Form title={"Get in touch"}/>
 		</main>
 
 		// < main
