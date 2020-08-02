@@ -6,17 +6,13 @@ import Hamburger from "../Lib/Hamburger";
 
 const navLinks = [
 	{
-		title: "Hire",
-		path: "/hire",
+		title: "Contact",
+		path: "/contact",
 		id: 4
 	}, {
 		title: "Blog",
 		path: "/blog",
 		id: 2
-	}, {
-		title: "Projects",
-		path: "/projects",
-		id: 3
 	}, {
 		title: "Home",
 		path: "/",

@@ -34,8 +34,6 @@ const thirdText = `Stockholm Art Walk is an art guide through Stockholm's
 										Android.`;
 
 function Home() {
-	let {url} = useRouteMatch();
-	console.log("##URL", url);
 	const [menuActive, setMenuActive] = useState(false);
 	// useEffect(() => {
 	// 	window.scrollTo(0, document.body.scrollHeight);

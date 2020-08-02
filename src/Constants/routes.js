@@ -33,7 +33,7 @@ const Routes = () => {
 					/>
 					<Route path={"/projects/:slug"} component={Project}/>
 					<Route path={"/about"} component={About}/>
-					<Route path={"/hire"} component={Hire}/>
+					<Route path={"/contact"} component={Hire}/>
 					<Route component={NotFoundPage}/>
 				</Switch>
 				{/*<Footer/>*/}
