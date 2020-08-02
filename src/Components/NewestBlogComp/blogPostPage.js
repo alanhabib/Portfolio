@@ -1,9 +1,7 @@
 import React from 'react';
 import {Card} from 'antd';
 
-function BlogPostPage({match, location}) {
-	console.log("## match", match);
-	console.log("## LOCATION", location);
+function BlogPostPage({location}) {
 	return (
 		<div>
 			<Card

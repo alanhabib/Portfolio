@@ -1,20 +1,21 @@
-import React, {Fragment, useState, useEffect, useRef} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import './styles.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFacebook, faTwitterSquare, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 import SectionCard from "./sectionCard";
 import image from "../../../build/images/thumb-card5.png"
 import anotherOne from "../../../build/images/cestovat-chladny-dno-jednoduchost-2868847.jpg"
-import {NavLink} from "react-router-dom";
+import {NavLink, useRouteMatch} from "react-router-dom";
 import Hamburger from "../../Components/Lib/Hamburger";
 import Form from "../../Components/Form"
 import {useLocation} from "react-router-dom";
 import Header from "../../Components/Header";
+import projectsData from "../../../projectData"
 
 const style = {
 	cursor: "pointer",
-	width: 24,
-	height: 24
+	width: 34,
+	height: 34
 };
 
 const text = "I create responsive websites that allow the user to experience your website in the best and " +
@@ -26,15 +27,20 @@ const secondText = "Apart from creating websites I also create applications usin
 	"combines the best parts of native development with React, a best-in-class JavaScript library " +
 	"for building user interfaces.";
 
+const thirdText = `Stockholm Art Walk is an art guide through Stockholm's 
+										subway. I developed 
+										the Art Walk app with React Native. Today, it is one of the most popular
+										Stockholm metro apps with 250,000+ downloads. Available for iOS and
+										Android.`;
+
 function Home() {
+	let {url} = useRouteMatch();
+	console.log("##URL", url);
 	const [menuActive, setMenuActive] = useState(false);
 	// useEffect(() => {
 	// 	window.scrollTo(0, document.body.scrollHeight);
 	// }, ["/"]);
 
-	const subStringHandler = (text) => {
-		return `${text.substring(0, 100)}...`
-	};
 	return (
 		<main className={"mainContainer"}>
 			{/*<h5 style={{textAlign: "center", lineHeight: 0}}>Personalize Theme</h5>*/}
@@ -57,9 +63,27 @@ function Home() {
 						<div className="social-links">
 							<img alt={"set pic"} id="social_img" src={image}/>
 							<h4>Find me on Github & Linkedin</h4>
-							<a target="_blank" href="https://github.com/alanhabib">Github: @AlanHabib</a>
-							<a target="_blank" href="https://www.linkedin.com/in/alan-habib-43a5b9167/">Linkedin:
-								@AlanHabib</a>
+							<ul>
+								<a
+									target="_blank"
+									href={"https://github.com/alanhabib"}>
+									<FontAwesomeIcon
+										style={style}
+										size={"lg"}
+										icon={faGithub}/>
+								</a>
+								<a
+									target="_blank"
+									href={"https://www.linkedin.com/in/alan-habib-43a5b9167/"}>
+									<FontAwesomeIcon
+										onClick={() => {
+											console.log("#### SCROLLBUTTON");
+										}}
+										style={style}
+										size={"lg"}
+										icon={faLinkedinIn}/>
+								</a>
+							</ul>
 						</div>
 						<div className="about-me">
 							<h4>More about me</h4>
@@ -105,39 +129,28 @@ function Home() {
 				<div className="main-container">
 					<h3> Past projects</h3>
 					<div className="post-wrapper">
-						<div>
-							<div className="post">
-								<img alt={"pics here"} className="thumbnail" src={image}/>
-								<div className="post-preview">
-									<h5 className="post-title">Mitt Convini</h5>
-									<p className="post-intro">
-										{subStringHandler(`Mitt convini is a website built on React.js. On this 
-										project I implemented BankId with form error handling. Implemented user 
-										registration, created a custom made guide for registering different payment 
-										methods.`)}
-									</p>
-									<a href="https://mitt.convini.se/">Read More</a>
+						{projectsData.map((project) => (
+							<div key={project.id}>
+								<div className="post">
+									<img alt={"pics here"} className="thumbnail" src={project.image}/>
+									<div className="post-preview">
+										<h5 className="post-title">{project.title}</h5>
+										<p className="post-intro">
+											{project.text.substring(0, 80)}...
+										</p>
+										<NavLink
+											to={{
+												pathname: `projects/:${project.slug}`,
+												project
+											}}
+											className={"blogPostListItem"}
+										>
+											Read More
+										</NavLink>
+									</div>
 								</div>
 							</div>
-						</div>
-
-						<div>
-							<div className="post">
-								<img alt={"this is it"} className="thumbnail" src={image}/>
-								<div className="post-preview">
-									<h5 className="post-title">Stockholm Artwalk</h5>
-									<p className="post-intro">
-										{subStringHandler(`Stockholm Art Walk is an art guide through Stockholm's 
-										subway. I developed 
-										the Art Walk app with React Native. Today, it is one of the most popular
-										Stockholm metro apps with 250,000+ downloads. Available for iOS and
-										Android.`)}
-									</p>
-									<a href="https://apps.apple.com/se/app/sl-linjekartor-stockholm/id524365199">Read More</a>
-								</div>
-							</div>
-						</div>
-
+						))}
 					</div>
 				</div>
 			</section>

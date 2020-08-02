@@ -13,6 +13,7 @@ import Home from "../pages/home";
 import Hire from "../pages/hire"
 import NotFoundPage from "../pages/notFoundPage";
 import About from "../pages/about";
+import Project from "../Components/Projects";
 
 const user = {
 	firstName: "Alan",
@@ -30,6 +31,7 @@ const Routes = () => {
 						path={"/blog/:id"}
 						component={BlogPostPage}
 					/>
+					<Route path={"/projects/:slug"} component={Project}/>
 					<Route path={"/about"} component={About}/>
 					<Route path={"/hire"} component={Hire}/>
 					<Route component={NotFoundPage}/>
