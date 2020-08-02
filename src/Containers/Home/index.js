@@ -9,6 +9,7 @@ import {NavLink} from "react-router-dom";
 import Hamburger from "../../Components/Lib/Hamburger";
 import Form from "../../Components/Form"
 import {useLocation} from "react-router-dom";
+import Header from "../../Components/Header";
 
 const style = {
 	cursor: "pointer",
@@ -25,105 +26,41 @@ const secondText = "Apart from creating websites I also create applications usin
 	"combines the best parts of native development with React, a best-in-class JavaScript library " +
 	"for building user interfaces.";
 
-const title = "About";
-const secondTitle = "Contact me";
-const serviceTitle = "Services";
-const buttonText = "Button text";
-const projectsTitle = "Projects";
-const thirdTitle = "Blog";
-
-const navLinks = [
-	{
-		title: "Hire",
-		path: "/hire",
-		id: 4
-	}, {
-		title: "Blog",
-		path: "/blog",
-		id: 2
-	}, {
-		title: "Projects",
-		path: "/projects",
-		id: 3
-	}, {
-		title: "Home",
-		path: "/",
-		id: 1
-	},
-];
-
 function Home() {
 	const [menuActive, setMenuActive] = useState(false);
 	// useEffect(() => {
 	// 	window.scrollTo(0, document.body.scrollHeight);
 	// }, ["/"]);
 
+	const subStringHandler = (text) => {
+		return `${text.substring(0, 100)}...`
+	};
 	return (
 		<main className={"mainContainer"}>
-			<section className="s1">
-				<div className="main-container">
-					<div className="greeting-wrapper">
-						<h1>Hi, I'm Alan Habib</h1>
-					</div>
-					<div className="intro-wrapper">
-						<div className="nav-wrapper">
-							<div className="dots-wrapper">
-								<div className="browser-dot dot-1"/>
-								<div className="browser-dot dot-2"/>
-								<div className="browser-dot dot-3"/>
-							</div>
-							<div className={`navbarMenuContainer ${menuActive && "active"}`}>
-								<ul className={"navbarMenuList"}>
-									{navLinks.map((link) => (
-										<li
-											key={link.id}
-											className={"navbarMenuListItem"}
-										>
-											<NavLink
-												onClick={() => setMenuActive(false)}
-												className="nav__link"
-												to={link.path}>
-												{link.title}
-											</NavLink>
-										</li>
-									))}
-								</ul>
-							</div>
-							<Hamburger
-								menuActive={menuActive}
-								onClick={() => setMenuActive(!menuActive)}
-							/>
-						</div>
-						<div className="left-column">
-							<img alt={"put here personal"} id="profile_pic" src={image}/>
-							<h5 style={{textAlign: "center", lineHeight: 0}}>Personalize Theme</h5>
+			{/*<h5 style={{textAlign: "center", lineHeight: 0}}>Personalize Theme</h5>*/}
 
-							<div id="theme-options-wrapper">
-								<div id="light-mode" className="theme-dot"/>
-								<div id="blue-mode" className="theme-dot"/>
-							</div>
-
-							<p id="settings-note">{"Theme settings will be saved for your next visit"}</p>
-						</div>
-						<div className="right-column">
-							<div className="preview-shadow">
-								<div className="preview">
-									<div id="corner-tl" className="corner"/>
-									<div id="corner-tr" className="corner"/>
-									<h3>What I Do</h3>
-									<p>I was a frontend developer in a past life, now I enjoy full stack
-										development.</p>
-									<div id="corner-br" className="corner"/>
-									<div id="corner-bl" className="corner"/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			{/*<div id="theme-options-wrapper">*/}
+			{/*	<div id="light-mode" className="theme-dot"/>*/}
+			{/*	<div id="dark-mode" className="theme-dot"/>*/}
+			{/*</div>*/}
+			{/*<p id="settings-note">{"Theme settings will be saved for your next visit"}</p>*/}
+			<Header
+				title={"Hi, I am Alan!"}
+				rightContent={<img alt={"put here personal"} id="profile_pic" src={image}/>}
+				leftColumnTitle={"What I Do"}
+				lefttColumnText={
+					"I was a frontend developer in a past life, now I aspire for full stack"
+				}/>
 			<section className="s2">
 				<div className="main-container">
 					<div className="about-wrapper">
+						<div className="social-links">
+							<img alt={"set pic"} id="social_img" src={image}/>
+							<h4>Find me on Github & Linkedin</h4>
+							<a target="_blank" href="https://github.com/alanhabib">Github: @AlanHabib</a>
+							<a target="_blank" href="https://www.linkedin.com/in/alan-habib-43a5b9167/">Linkedin:
+								@AlanHabib</a>
+						</div>
 						<div className="about-me">
 							<h4>More about me</h4>
 							<p>
@@ -161,13 +98,6 @@ function Home() {
 								</ul>
 							</div>
 						</div>
-						<div className="social-links">
-							<img alt={"set pic"} id="social_img" src={image}/>
-							<h4>Find me on Twitter & Linkedin</h4>
-							<a target="_blank" href="https://www.youtube.com/c/dennisivy">Linkedin: @AlanHabib</a>
-							<br/>
-							<a target="_blank" href="https://twitter.com/dennisivy11">Twitter: @AlanHabib</a>
-						</div>
 					</div>
 				</div>
 			</section>
@@ -177,49 +107,33 @@ function Home() {
 					<div className="post-wrapper">
 						<div>
 							<div className="post">
-								<img className="thumbnail" src={image}/>
-								<div className="post-preview">
-									<h6 className="post-title">Laboratory Management System</h6>
-									<p className="post-intro">Designed built & mantained a the lab managment system
-										for FOI Laboratories</p>
-									<a href="#">Read More</a>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<div className="post">
 								<img alt={"pics here"} className="thumbnail" src={image}/>
 								<div className="post-preview">
-									<h6 className="post-title">Online Store - CoursePost Title</h6>
-									<p className="post-intro">Online store with paypal payments intergration and
-										guest user shopping</p>
-									<a href="#">Read More</a>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div className="post">
-								<img alt={"pics here"} className="thumbnail" src={image}/>
-								<div className="post-preview">
-									<h6 className="post-title">Online Store - CoursePost Title</h6>
-									<p className="post-intro">Online store with paypal payments intergration and
-										guest user shopping</p>
-									<a href="#">Read More</a>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<div className="post">
-								<img className="thumbnail" src={image}/>
-								<div className="post-preview">
-									<h5 className="post-title">Membership Website</h5>
+									<h5 className="post-title">Mitt Convini</h5>
 									<p className="post-intro">
-										Modulized guide for online courses with step by step
-										intructions
+										{subStringHandler(`Mitt convini is a website built on React.js. On this 
+										project I implemented BankId with form error handling. Implemented user 
+										registration, created a custom made guide for registering different payment 
+										methods.`)}
 									</p>
-									<a href="#">Read More</a>
+									<a href="https://mitt.convini.se/">Read More</a>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div className="post">
+								<img alt={"this is it"} className="thumbnail" src={image}/>
+								<div className="post-preview">
+									<h5 className="post-title">Stockholm Artwalk</h5>
+									<p className="post-intro">
+										{subStringHandler(`Stockholm Art Walk is an art guide through Stockholm's 
+										subway. I developed 
+										the Art Walk app with React Native. Today, it is one of the most popular
+										Stockholm metro apps with 250,000+ downloads. Available for iOS and
+										Android.`)}
+									</p>
+									<a href="https://apps.apple.com/se/app/sl-linjekartor-stockholm/id524365199">Read More</a>
 								</div>
 							</div>
 						</div>

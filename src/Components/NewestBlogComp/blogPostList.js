@@ -1,5 +1,7 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import {NavLink, useRouteMatch} from "react-router-dom";
+import {buildDate} from "../Lib/date";
+
 
 function BlogPostList(props) {
 	let {url} = useRouteMatch();
@@ -7,17 +9,9 @@ function BlogPostList(props) {
 		props.blogPosts.map(blogPost => (
 			<div className={"blogPostListContainer"} key={blogPost._id}>
 				<div className="blog-card alt">
-					<div className="meta">
-						<div className="photo"
-							 style={{backgroundImage: `url("https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg")`}}></div>
-						<ul className="details">
-							<li className="author">Jane Doe</li>
-							<li className="date">{blogPost.createdAt}</li>
-						</ul>
-					</div>
-
 					<div className="description">
 						<h2>{blogPost.title}</h2>
+						<p>{`Author: Jane ${buildDate(blogPost.createdAt)}`}</p>
 						<p>{blogPost.text.substring(0, 50)}...</p>
 						<p className="read-more">
 							<NavLink

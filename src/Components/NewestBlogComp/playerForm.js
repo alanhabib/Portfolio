@@ -27,30 +27,42 @@ class PlayerForm extends Component {
 
 	render() {
 		return (
-			<form
-				onSubmit={() => {
-					this.submitBlogPost();
-					this.emptyform();
-				}}
-				// action={"/blogger"}
-				action={"localhost:4000/blogger"}
-				className={"blogFormContainer"}
-				method={"post"}
-			>
-				<ul>
-					<li>
-						<label htmlFor="name">Title:</label>
-						<input ref={this.title} type="text" id="title" name="title"/>
-					</li>
-					<li>
-						<label htmlFor="msg">Message:</label>
-						<textarea ref={this.text} id="text" name="text"></textarea>
-					</li>
-					<li className="button">
-						<button name={"action"} type="submit">Send your message</button>
-					</li>
-				</ul>
-			</form>
+			<section className="s2">
+				<div className="main-container">
+					<form
+						action={"localhost:4000/blogger"}
+						method={"post"}
+						id="contact-form"
+						onSubmit={() => {
+							this.submitBlogPost();
+							this.emptyform();
+						}}
+					>
+						<label>Title</label>
+						<input
+							ref={this.title}
+							type="text"
+							id="title"
+							name="title"
+							className="input-field"
+						/>
+
+						<label>Message</label>
+						<textarea
+							ref={this.text}
+							id="text"
+							name="text"
+							className="input-field"
+						/>
+
+						<input
+							id="submit-btn"
+							type="submit"
+							value="Send"
+						/>
+					</form>
+				</div>
+			</section>
 		);
 	};
 }

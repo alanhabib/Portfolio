@@ -32,16 +32,18 @@ function Blog({match}) {
 		<Fragment>
 			<Header
 				title={"my Blog..."}
-				rightContent={<BlogPostListPage
-					deletePost={deletePost}
-					blogPosts={blogPosts}
-				/>}
+				rightContent={
+					<PlayerForm/>
+				}
 				leftColumnTitle={"Read, learn & blog about it!"}
 				lefttColumnText={
 					"This is a blog about my everyday as a developer. Read, like or maybe even comment!"
 				}
 			/>
-			<PlayerForm/>
+			<BlogPostListPage
+				deletePost={deletePost}
+				blogPosts={blogPosts}
+			/>
 		</Fragment>
 	)
 }
