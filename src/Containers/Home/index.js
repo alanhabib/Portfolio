@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './styles.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import {faCodepen, faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 import SectionCard from "./sectionCard";
 import image from "../../../build/images/thumb-card5.png"
 import anotherOne from "../../../build/images/cestovat-chladny-dno-jednoduchost-2868847.jpg"
@@ -56,7 +56,7 @@ function Home() {
 					"I was a frontend developer in a past life, now I aspire for full stack"
 				}/>
 			<section className="s2">
-				<div className="main-container">
+				<div className="container">
 					<div className="about-wrapper">
 						<div className="social-links">
 							<img alt={"set pic"} id="social_img" src={image}/>
@@ -74,12 +74,17 @@ function Home() {
 									target="_blank"
 									href={"https://www.linkedin.com/in/alan-habib-43a5b9167/"}>
 									<FontAwesomeIcon
-										onClick={() => {
-											console.log("#### SCROLLBUTTON");
-										}}
 										style={style}
 										size={"lg"}
 										icon={faLinkedinIn}/>
+								</a>
+								<a
+									target="_blank"
+									href={"https://codesandbox.io/u/alanhabib/sandboxes"}>
+									<FontAwesomeIcon
+										style={style}
+										size={"lg"}
+										icon={faCodepen}/>
 								</a>
 							</ul>
 						</div>
@@ -123,7 +128,7 @@ function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="s1">
+			<section className="s3">
 				<div className="main-container">
 					<h3> Past projects</h3>
 					<div className="post-wrapper">
