@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Home/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.bundle.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,14 +153,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1578" y="353" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595411374005" />
-    <state x="1646" y="397" width="703" height="518" key="find.popup" timestamp="1596277753182">
+    <state x="1646" y="397" width="703" height="518" key="find.popup" timestamp="1596442414883">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="-914" y="397" width="703" height="518" key="find.popup/-2560.23.2560.1417/2560.663.1280.777/0.23.2560.1417@-2560.23.2560.1417" timestamp="1594626457501" />
     <state x="572" y="408" width="703" height="518" key="find.popup/-2560.23.2560.1417/2560.663.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595485193170" />
     <state x="634" y="199" width="703" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1595175618152" />
     <state x="479" y="259" width="703" height="527" key="find.popup/2560.694.1280.800/0.0.2560.1440@0.0.2560.1440" timestamp="1595063392396" />
-    <state x="1646" y="397" width="703" height="518" key="find.popup/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1596277753182" />
+    <state x="1646" y="397" width="703" height="518" key="find.popup/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1596442414883" />
     <state x="1581" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1595576801331">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
