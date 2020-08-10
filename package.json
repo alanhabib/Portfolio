@@ -11,11 +11,13 @@
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "start": "nodemon ./index.js --exec babel-node -e js"
+    "start": "nodemon --exec babel-node ./index.js -e js"
   },
   "author": "Alan Habib",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1"
