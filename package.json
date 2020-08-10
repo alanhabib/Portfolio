@@ -1,7 +1,10 @@
 {
-  "type": "module",
   "name": "backend",
   "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "12.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
