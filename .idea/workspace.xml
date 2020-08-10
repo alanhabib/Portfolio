@@ -2,86 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/blogController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/blogController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/blogModels.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/blogModels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/blogRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/blogRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/_masonryPost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Assets/_masonryPost.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Assets/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/_post-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Assets/_post-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/_postMasonry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Assets/_postMasonry.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/_tagRow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Assets/_tagRow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Assets/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Assets/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Common/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/MasonryPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Common/MasonryPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/PostGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Common/PostGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/PostMasonry.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Common/PostMasonry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/TagRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Common/TagRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Common/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Form/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Form/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Header/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Header/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LandingPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Lib/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Lib/Card/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Lib/Card/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Hamburger/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Lib/Hamburger/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/Hamburger/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Lib/Hamburger/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Lib/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Lib/date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navbar/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/BlogPostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NewestBlogComp/BlogPostListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/blogPostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NewestBlogComp/blogPostList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/blogPostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NewestBlogComp/blogPostPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/playerForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NewestBlogComp/playerForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewestBlogComp/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NewestBlogComp/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Projects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Projects/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Sidebar/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Sidebar/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TrackVisbility.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/TrackVisbility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UI/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/UI/Card/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UI/Card/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/UI/Card/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Constants/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/About/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/About/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/About/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/About/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/CreatePosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Blog/CreatePosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Blog/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Blog/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Blog/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Contact/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Contact/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Contact/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Home/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/sectionCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Home/sectionCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Home/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/Home/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PageRender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/hire.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/hire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/notFoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/notFoundPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +123,7 @@
       <workItem from="1595483428356" duration="8642000" />
       <workItem from="1595510679098" duration="40100000" />
       <workItem from="1595746978292" duration="32905000" />
-      <workItem from="1596880885613" duration="3437000" />
+      <workItem from="1596880885613" duration="7412000" />
     </task>
     <servers />
   </component>

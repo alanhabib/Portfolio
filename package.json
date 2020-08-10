@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node -e js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix npm run build"
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "author": "Alan Habib",
   "license": "ISC",
