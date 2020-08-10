@@ -72,10 +72,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3"
   },
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -rf ../build/index.bundle.js",
-    "compile": "NODE_ENV=production webpack --config ./webpack.prod.js --progress"
+    "start": "webpack-dev-server --config webpack.dev.js --open"
   },
   "author": "Alan Habib",
   "license": "ISC",
