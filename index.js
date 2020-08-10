@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import bodyparser from "body-parser";
 import path from "path";
 import cors from "cors";
-import routes from "./routes/blogRoutes";
+import routes from "./routes/blogRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 4000;

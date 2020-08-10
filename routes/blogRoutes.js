@@ -4,7 +4,7 @@ import {
 	getBlog,
 	getBlogById,
 	updateBlogPost
-} from "../controllers/blogController";
+} from "../controllers/blogController.js";
 
 const routes = (app) => {
 	app.route("/blogger")

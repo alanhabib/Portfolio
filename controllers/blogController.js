@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import {BlogSchema} from "../models/blogModels";
+import {BlogSchema} from "../models/blogModels.js";
 
 const Blogger = mongoose.model("Blogger", BlogSchema);
 
