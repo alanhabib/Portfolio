@@ -75,7 +75,7 @@
     "start": "webpack-dev-server --config webpack.dev.js --open",
     "build": "npm run clean && npm run compile",
     "clean": "rm -rf ../build/index.bundle.js",
-    "compile": "NODE_ENV=production webpack --config ./webpack.prod.js --progress"
+    "compile": "webpack --config ./webpack.prod.js --progress"
   },
   "author": "Alan Habib",
   "license": "ISC",
