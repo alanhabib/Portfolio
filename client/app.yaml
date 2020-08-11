@@ -1,0 +1,17 @@
+runtime: nodejs12
+
+instance_class: F2
+
+handlers:
+  # Serve all static files with url ending with a file extension
+  - url: /(.*\..+)$
+    static_files: src/\1
+    upload: src/.*\.(gif|png|jpg|ico|txt)$
+
+  # Catch all handler to index.html
+  - url: /
+    static_files: src/template.html
+    upload: src/template.html
+
+  - url: /.*
+    script: auto
