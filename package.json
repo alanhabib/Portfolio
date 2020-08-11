@@ -8,10 +8,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd client && npm run build",
+    "clean": "rm -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./src -s",
+    "build": "npm run clean && npm run build-babel && cd client && npm run build",
     "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build",
-    "start": "nodemon --exec babel-node ./index.js -e js"
+    "heroku-postbuild": "npm run install-client && npm run build && node ./build/index.js",
+    "start": "nodemon ./index.js -e js"
   },
   "author": "Alan Habib",
   "license": "ISC",
