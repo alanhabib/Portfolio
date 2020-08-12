@@ -3,8 +3,8 @@ import './styles.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCodepen, faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 import SectionCard from "./sectionCard";
-import image from "../../../../build/images/thumb-card5.png"
-import anotherOne from "../../../../build/images/cestovat-chladny-dno-jednoduchost-2868847.jpg"
+import image from "../../../images/m-blog-4.jpg"
+import anotherOne from "../../../images/m-blog-5.jpg"
 import {NavLink, useRouteMatch} from "react-router-dom";
 import Hamburger from "../../Components/Lib/Hamburger";
 import Form from "../../Components/Form"

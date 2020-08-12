@@ -2,9 +2,9 @@ import React from 'react';
 import Card from "./card";
 import {faCode} from "@fortawesome/free-solid-svg-icons";
 import {faAndroid, faSketch} from "@fortawesome/free-brands-svg-icons";
-import firstImage from "../../../../build/images/blog1.png";
-import secondImage from "../../../../build/images/blog2.png";
-import thirdImage from "../../../../build/images/blog3.png";
+import firstImage from "../../../images/m-blog-1.jpg";
+import secondImage from "../../../images/m-blog-2.jpg";
+import thirdImage from "../../../images/m-blog-3.jpg";
 
 const cardText = "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of ";
 const cardTitle = "Web development";

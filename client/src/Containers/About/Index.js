@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./styles.scss";
 import {NavLink} from "react-router-dom";
 import Hamburger from "../../Components/Lib/Hamburger";
-import image from "../../../../build/images/thumb-card5.png";
+import image from "../../../images/m-blog-5.jpg";
 const navLinks = [
 	{
 		title: "Home",
