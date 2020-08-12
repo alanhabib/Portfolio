@@ -7,12 +7,12 @@ module.exports = merge(common, {
 	mode: "development",
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: "./src/template.html"
+			template: "./client/src/template.html"
 		})
 	],
 	output: {
 		filename: "[name].bundle.js",
-		path: path.resolve(__dirname, "dist")
+		path: path.resolve(__dirname, "/client/dist")
 	},
 	module: {
 		rules: [

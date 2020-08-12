@@ -4,6 +4,11 @@
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +43,18 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client/images" />
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/src/Components/Form" />
+      <recent name="$PROJECT_DIR$/build/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Containers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/images" />
-      <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/Components/Form" />
-      <recent name="$PROJECT_DIR$/build/images" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -126,7 +131,7 @@
       <workItem from="1595746978292" duration="32905000" />
       <workItem from="1596880885613" duration="9149000" />
       <workItem from="1597215832360" duration="11830000" />
-      <workItem from="1597234177253" duration="725000" />
+      <workItem from="1597234177253" duration="3788000" />
     </task>
     <servers />
   </component>
@@ -148,6 +153,10 @@
     </state>
     <state x="1658" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.23.2560.1417/2560.663.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595483751681" />
     <state x="1658" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.717.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1595451715932" />
+    <state x="-1228" y="23" key="FileDocumentManager.FileCacheConflict" timestamp="1597238173319">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="-1228" y="23" key="FileDocumentManager.FileCacheConflict/2560.663.1280.777/-2560.23.2560.1417/0.23.2560.1417@-2560.23.2560.1417" timestamp="1597238173319" />
     <state x="1578" y="353" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595411374005">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
