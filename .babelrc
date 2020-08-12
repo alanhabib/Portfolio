@@ -1,6 +1,20 @@
 {
   "presets": [
+    "@babel/react",
     "env",
-    "stage-0"
+    "stage-0",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        },
+        "useBuiltIns": "entry"
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread"
   ]
 }
