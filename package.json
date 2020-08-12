@@ -1,14 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "type": "module",
   "engines": {
     "node": "12.x"
   },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Alan Habib",

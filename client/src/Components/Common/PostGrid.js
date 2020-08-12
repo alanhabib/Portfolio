@@ -32,10 +32,10 @@ export default function PostGrid({posts}) {
 					>
 						<figure>
 							<Link to={post.link}>
-								<img
-									src={require(`../../../build/images/${post.image}`)}
-									alt={post.image}
-								/>
+								{/*<img*/}
+								{/*	src={require(`../../../build/images/${post.image}`)}*/}
+								{/*	alt={post.image}*/}
+								{/*/>*/}
 							</Link>
 						</figure>
 						<TagRow tags={post.categories}/>
