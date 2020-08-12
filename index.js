@@ -1,9 +1,9 @@
-import express from "express";
-import mongoose from "mongoose";
-import bodyparser from "body-parser";
-import path from "path";
-import cors from "cors";
-import routes from "./routes/blogRoutes.js";
+const express = require("express");
+const mongoose = require("mongoose");
+const bodyparser = require("body-parser");
+const path = require("path");
+const cors = require("cors");
+const routes = require("./routes/blogRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 4000;

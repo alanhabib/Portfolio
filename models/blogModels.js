@@ -1,8 +1,8 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-export const BlogSchema = new Schema({
+const BlogSchema = new Schema({
 	title: {
 		type: String,
 		required: true
@@ -16,3 +16,5 @@ export const BlogSchema = new Schema({
 		default: Date.now()
 	}
 });
+
+module.exports = BlogSchema;

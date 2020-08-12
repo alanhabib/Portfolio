@@ -1,10 +1,10 @@
-import {
+const {
 	addNewBlog,
 	deleteBlogPost,
 	getBlog,
 	getBlogById,
 	updateBlogPost
-} from "../controllers/blogController.js";
+} = require("../controllers/blogController");
 
 const routes = (app) => {
 	app.route("/blogger")
@@ -18,4 +18,4 @@ const routes = (app) => {
 		.delete(deleteBlogPost)
 };
 
-export default routes;
+module.exports = routes;

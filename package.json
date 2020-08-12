@@ -13,7 +13,7 @@
     "build": "npm run clean && npm run build-babel",
     "install-client": "cd client && npm install && npm run build",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "start": "node index.js -e js"
+    "start": "node index.js"
   },
   "author": "Alan Habib",
   "license": "ISC",
