@@ -73,7 +73,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config=webpack.dev.js --open --hot",
-    "build": "webpack --config=webpack.prod.js"
+    "build": "webpack -p --config ./webpack.prod.js"
   },
   "author": "Alan Habib",
   "license": "ISC",
