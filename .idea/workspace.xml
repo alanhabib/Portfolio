@@ -3,8 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="69237b26-7d52-4b6f-9621-c4c09e67eb18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/affection-baby-baby-girl-beautiful-377058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/beautiful-&amp;-simple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/blog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/blog2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/blog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/blog4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/cestovat-chladny-dno-jednoduchost-2868847.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/fitness-blog-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/memories-from.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/post-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/reco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/thumb-card3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/thumb-card4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/thumb-card5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/thumb-card6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/thumb-card7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/thumb-card8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text" beforeDir="false" afterPath="$PROJECT_DIR$/text" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +153,7 @@
       <workItem from="1595510679098" duration="40100000" />
       <workItem from="1595746978292" duration="32905000" />
       <workItem from="1596880885613" duration="9149000" />
-      <workItem from="1597215832360" duration="7183000" />
+      <workItem from="1597215832360" duration="7840000" />
     </task>
     <servers />
   </component>

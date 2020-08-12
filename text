@@ -264,9 +264,13 @@
     //  }
     //}
 
-    "build": "npm run clean && npm run compile",
+        "build": "npm run clean && npm run compile",
         "clean": "rm -rf ../build/index.bundle.js",
         "compile": "NODE_ENV=production webpack --config ./webpack.prod.js --progress"
 
         client/json
         "clean": "rm -rf ../build/index.bundle.js",
+
+        server/json
+        "clean": "rm -rf build && mkdir build",
+        "build": "npm run clean && npm run build-babel",
