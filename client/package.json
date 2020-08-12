@@ -72,8 +72,8 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3"
   },
   "scripts": {
-    "start": "webpack-dev-server --config=webpack.dev.js --open --hot",
-    "build": "webpack -p --config ./webpack.prod.js"
+    "start": "webpack-dev-server --config webpack.dev.js --open --hot",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "Alan Habib",
   "license": "ISC",
